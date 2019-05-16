@@ -1,4 +1,4 @@
-- title: "This is a paper to generate this website."
+- title: "(Both)This is a paper to generate this website."
   authors: KM Bastiaans, T Benschop, D Chatzopoulos, DH Cho, Q Dong, Y Jin, MP Allan
   venue: "CVPR 2019"
   paper:
@@ -7,6 +7,24 @@
   code:
     url: https://github.com
     display_text:  Github Link
+
+- title: "(only paper)This is a paper to generate this website."
+  authors: KM Bastiaans, T Benschop, D Chatzopoulos, DH Cho, Q Dong, Y Jin, MP Allan
+  venue: "CVPR 2019"
+  paper:
+    url: https://arxiv.org/abs/1806.00374
+    display_text:  pdf
+
+- title: "(only gitbub)This is a paper to generate this website."
+  authors: KM Bastiaans, T Benschop, D Chatzopoulos, DH Cho, Q Dong, Y Jin, MP Allan
+  venue: "CVPR 2019"
+  code:
+    url: https://github.com
+    display_text:  Github Link
+
+- title: "(None)This is a paper to generate this website."
+  authors: KM Bastiaans, T Benschop, D Chatzopoulos, DH Cho, Q Dong, Y Jin, MP Allan
+  venue: "CVPR 2019"
 
 - title: "Amplifier for scanning tunneling microscopy at MHz frequencies"
   image: Fano.png

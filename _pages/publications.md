@@ -61,7 +61,9 @@ Publications
 
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  {{ publi.link.display.size | jsonify }}
+  <em>{{ publi.venue }} </em><br />
+  <a href="{{ publi.paper.url }}">{{ publi.paper.display_text }}</a>
+  <a href="{{ publi.code.url }}">{{ publi.code.display_text }}</a>
+
 {% endfor %}
 
