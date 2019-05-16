@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Machine Learning and Vision Group - Publications"
 layout: gridlay
 excerpt: "Publications"
 sitemap: false

@@ -1,5 +1,5 @@
 ---
-title: "Contact Us"
+title: "Machine Learning and Vision Group - Contact Us"
 layout: textlay
 excerpt: "Contact Us"
 sitemap: false

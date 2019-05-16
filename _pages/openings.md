@@ -1,5 +1,5 @@
 ---
-title: "Vacancies"
+title: "Machine Learning and Vision Group - Vacancies"
 layout: textlay
 excerpt: "Openings"
 sitemap: false

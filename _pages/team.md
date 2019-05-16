@@ -1,5 +1,5 @@
 ---
-title: "Team"
+title: "Machine Learning and Vision Group - Team"
 layout: gridlay
 excerpt: "Team members"
 sitemap: false
