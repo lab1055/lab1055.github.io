@@ -240,12 +240,3 @@ Group Members
     <td>Daniëlle van Klink, Spring 2016</td>
   </tr>
 </table>
-
-## Administrative Support
-<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
-
-
-
-
-
-
