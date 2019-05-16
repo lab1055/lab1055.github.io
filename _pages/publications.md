@@ -62,6 +62,6 @@ Publications
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  {{ publi.link.display | jsonify }}
+  {{ publi.link.display.size | jsonify }}
 {% endfor %}
 
