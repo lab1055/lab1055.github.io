@@ -15,8 +15,8 @@ Academic Building C, <br/>
 Department of Computer Science and Engineering, <br/>
 Indian Institute of Technology Hyderabad, <br/>
 Kandi, Sangareddy, <br/>
-Telangana.<br/>
-India <br/>
+Telangana,<br/>
+India. <br/>
 Pincode: 502 285 
 
 #### We always love hearing from you. Our team would be / were at:
