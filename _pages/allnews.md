@@ -12,5 +12,5 @@ News
 
 {% for article in site.data.news %}
 <p><b>{{ article.date }}</b><br>
-{{ article.headline }}</p>
+<em>{{ article.headline }}</em></p>
 {% endfor %}
