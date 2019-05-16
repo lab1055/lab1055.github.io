@@ -70,7 +70,7 @@ As machine learning and Artificial Intelligence continue to make inroads into th
 We are grateful to the following organizations whose support sustains our research.
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/fundingsupport.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/fundingsupport.jpg" style="width: 621px">
 </figure>
 
 
