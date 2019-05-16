@@ -25,7 +25,8 @@ Group Members
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i><br>
-  Webpage: <a href='{{ member.webpage }}' target='_blank'>{{ member.webpage }}</a>
+  <a href='{{ member.webpage }}' target='_blank'>Webpage</a>
+  
   <ul style="overflow: hidden">
   
   {% if member.number_educ == 1 %}
