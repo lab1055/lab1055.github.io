@@ -24,6 +24,8 @@ permalink: /
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/7.jpg" alt="Slide 1" />
         </div>
     </div> 
+   
+  <!-- 
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -32,6 +34,7 @@ permalink: /
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+  -->
 </div>
 
 #### Overview 
