@@ -10,23 +10,16 @@ permalink: /contact/
 Contact us
 </h1>
 
-Lab C-310,
-
-Academic Building C,
-
-Department of Computer Science and Engineering,
-
-Indian Institute of Technology Hyderabad,
-
-Kandi, Sangareddy, 
-
-Telangana.
-
-India 
-
+Lab C-310, <br/>
+Academic Building C, <br/>
+Department of Computer Science and Engineering, <br/>
+Indian Institute of Technology Hyderabad, <br/>
+Kandi, Sangareddy, <br/>
+Telangana.<br/>
+India <br/>
 Pincode: 502 285 
 
-##### We always love hearing from you. Our team would be / were at:
+#### We always love hearing from you. Our team would be / were at:
 
 * CVPR 2019
 * ICML 2019
