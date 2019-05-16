@@ -11,15 +11,15 @@
 #    url: https://josephkj.in
 #    display_text:  Project Page
 
-- title: Submodular Batch Selection for Training Deep Neural Networks
+- title: "Submodular Batch Selection for Training Deep Neural Networks"
   authors: Joseph K J, Vamshi Teja R, Krishnakant Singh, V. Balasubramanian
   venue: Proceedings of International Joint Conference on Artificial Intelligence (<b>IJCAI’19</b>), Aug 2019.
 
-- title: Harnessing the Vulnerability of Latent Layers in Adversarially Trained Models
+- title: "Harnessing the Vulnerability of Latent Layers in Adversarially Trained Models"
   authors: Nupur Kumari, Abhishek Sinha, Mayank Singh, Harshitha Machiraju, Balaji Krishnamurthy, V. Balasubramanian
   venue: Proceedings of International Joint Conference on Artificial Intelligence (<b>IJCAI’19</b>), Aug 2019.
 
-- title: Neural Network Attributions: A Causal Perspective
+- title: "Neural Network Attributions: A Causal Perspective"
   authors: Aditya Chattopadhyay, Piyushi Manupriya, Anirban Sarkar, V. Balasubramanian
   venue: Proceedings of International Conference on Machine Learning (<b>ICML’19</b>), Jun 2019.
   paper:
