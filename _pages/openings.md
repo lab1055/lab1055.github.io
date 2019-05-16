@@ -18,7 +18,7 @@ Open positions
 </div>
 
 ### Masters and PhD positions
-Please apply through the [CSE department](https://cse.iith.ac.in) for our PhD and MTech programs. 
+Please apply through the [CSE department](https://cse.iith.ac.in) for our [PhD](https://cse.iith.ac.in/admissions/phd.html) and [MTech](https://cse.iith.ac.in/admissions/mtech.html) programs. 
 
 At the CSE department at IIT-H, we also offer MTech programs in Machine Learning.
 
