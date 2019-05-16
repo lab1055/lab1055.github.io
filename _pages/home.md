@@ -1,13 +1,16 @@
 ---
-title: "Allan Lab - Home"
+title: "Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "Machine Learning and Vision Group - IIT Hyderabad"
 sitemap: false
 permalink: /
 ---
 
-We are a small, dynamic group at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl). Our aim is to explore and understand [quantum materials](http://condensedconcepts.blogspot.nl/2013/05/what-is-quantum-matter.html), including strange metals, high-temperature superconductors, and quantum critical electron matter. 
- 
+Our group’s research interests lie at the intersection of the theory and application of machine learning - with a focus on applications in computer vision. With a strong interest in the mathematical fundamentals and a passion for real-world application, our group aims on being at the forefront of the field, by publishing in the best of venues in the areas of machine learning and computer vision, while at the same time, being guided by application contexts derived from real-world use. 
+
+In recent years, our work on the algorithmic side has focused on non-convex optimization, explainable machine learning and deep generative models; while our applied work is on domains including agriculture, e-learning, security/surveillance and human behavior understanding. 
+
+As machine learning and Artificial Intelligence continue to make inroads into the daily life of every human, our future research plans focus on the development of machine learning methods for real-world application contexts and challenges, with an emphasis on both theoretical and empirical analysis. 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
@@ -52,22 +55,25 @@ We are a small, dynamic group at the [Leiden Institute of Physics](http://www.ph
   </a>
 </div>
 
+## Ongoing Projects (Selected)
 
+* Non-convex Optimization and Deep Learning (Intel PhD Fellowship)
 
+* Explainable Machine Learning (Funded by MHRD, DST and Honeywell through the UAY program)
 
-To this end, we develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom. We want do be able to build the perfect instruments to answer the  scientific questions we deem most important (see [Research](research)).
+* Deep Generative Models: Going Beyond Supervised Learning (Intel PhD Fellowship)
 
-We are located at Leiden University, the birthplace of superconductivity and home to Kamerlingh Onnes, Lorentz, Huygens, Einstein, de Sitter, and others (see e.g. [the wall of signatures from Ehrenfest lecturers](https://www.lorentz.leidenuniv.nl/history/colloquium/muur_heel.html)). We exchange ideas and work with our neighbors from [Quantum Matter & Optics](http://www.physics.leidenuniv.nl/qo-home), as well as with the colleagues from our [world-class theory section](https://www.lorentz.leidenuniv.nl).
+* Object Detection in Unconstrained Settings, including Drone Images and Low-resolution Thermal Images (Funded by DRDO and IBM)
+
+* Learning with Weak Supervision for Autonomous Vehicles (Funded by Intel)
+
+* Deep Learning for Agriculture (A DST-JST SICORP Collaborative Project with Univ of Tokyo, IIT-B, IIIT-H, and PJTSAU)
 
  
- 
-We are grateful for funding from Leiden University, [NWO](www.nwo.nl) ([Vidi talent scheme](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme) and the [Frontiers in Nanoscience program](https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront)), and from an [ERC starting grant](https://erc.europa.eu/funding/starting-grants).
+We are grateful to the following organizations whose support sustains our research.
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Nanofront.jpg" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px">
 </figure>
 
 
