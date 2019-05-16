@@ -6,6 +6,7 @@ sitemap: false
 permalink: /
 ---
 
+<!-- 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
@@ -25,7 +26,6 @@ permalink: /
         </div>
     </div> 
    
-  <!-- 
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -34,9 +34,9 @@ permalink: /
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-  -->
-</div>
 
+</div>
+-->
 #### Overview 
 
 Our group’s research interests lie at the intersection of the theory and application of machine learning - with a focus on applications in computer vision. With a strong interest in the mathematical fundamentals and a passion for real-world application, our group aims on being at the forefront of the field, by publishing in the best of venues in the areas of machine learning and computer vision, while at the same time, being guided by application contexts derived from real-world use. 
