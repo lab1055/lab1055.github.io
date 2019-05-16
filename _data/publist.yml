@@ -3,7 +3,7 @@
   venue: "CVPR 2019"
   paper:
     url: https://arxiv.org/abs/1806.00374
-    display_text:  pdf
+    display_text:  PDF
   code:
     url: https://github.com
     display_text:  Github Link
@@ -20,7 +20,7 @@
   venue: "CVPR 2019"
   code:
     url: https://github.com
-    display_text:  Github Link
+    display_text:  Code
 
 - title: "(None)This is a paper to generate this website."
   authors: KM Bastiaans, T Benschop, D Chatzopoulos, DH Cho, Q Dong, Y Jin, MP Allan
