@@ -17,11 +17,10 @@ Open positions
 **(Sticky):** Unfortunately, we are unable to take short-term interns; We sincerely apologize that we are unable to respond to individual emails seeking such internships. Please use [this link](https://cse.iith.ac.in/admissions/internships.html) to apply for the CSE@IITH summer internship program.
 </div>
 
-#### Masters and PhD positions
+### Masters and PhD positions
 Please apply through the [CSE department](https://cse.iith.ac.in) for our PhD and MTech programs. 
 
 At the CSE department at IIT-H, we also offer MTech programs in Machine Learning.
 
 * MTech in ML for regular students
-
 * MTech in Data Science for working professionals
