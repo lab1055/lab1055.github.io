@@ -6,7 +6,9 @@ sitemap: false
 permalink: /contact/
 ---
 
-# Research
+<h1 class='page-header'>
+Contact us
+</h1>
 
 Our overarching goal is to explore and understand new quantum states of electronic matter on the atomic scale. To do so, we use and develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom.
 
