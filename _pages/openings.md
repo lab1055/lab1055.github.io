@@ -13,7 +13,7 @@ Open positions
 - **(Jan 2019 - Postdoctoral Fellow)**: If you are interested in pursuing a postdoctoral fellowship with our group, please send an email with subject line “Postdoctoral Position at IIT-H” to discuss more.
 
 <div class="well">
-(Sticky): Unfortunately, we are unable to take short-term interns; We sincerely apologize that we are unable to respond to individual emails seeking such internships. Please use [this link](#https://cse.iith.ac.in/admissions/internships.html) to apply for the CSE@IITH summer internship program.
+**(Sticky):** Unfortunately, we are unable to take short-term interns; We sincerely apologize that we are unable to respond to individual emails seeking such internships. Please use [this link](#https://cse.iith.ac.in/admissions/internships.html) to apply for the CSE@IITH summer internship program.
 </div>
 
 #### Masters and PhD positions
