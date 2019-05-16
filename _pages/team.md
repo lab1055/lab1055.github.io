@@ -91,9 +91,9 @@ Group Members
   <h4>{{ member.name }}</h4>
   <i>{{ member.desig }}</i> <br/>
   <i>{{ member.info }}<br/>
-  ID: {{ member.id }}</i> <br/>
+  ID: {{ member.id }}</i> 
   {% if member.webpage.size > 0 %}
-  <a href='{{ member.webpage }}' target='_blank'>Webpage</a>
+  <br/> <a href='{{ member.webpage }}' target='_blank'>Webpage</a>
   {% endif %}
   
   <ul style="overflow: hidden">
