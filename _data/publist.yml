@@ -1,3 +1,13 @@
+- title: "This is a paper to generate this website."
+  authors: KM Bastiaans, T Benschop, D Chatzopoulos, DH Cho, Q Dong, Y Jin, MP Allan
+  venue: "CVPR 2019"
+  paper:
+    url: https://arxiv.org/abs/1806.00374
+    display_text:  pdf
+  code:
+    url: https://github.com
+    display_text:  Github Link
+
 - title: "Amplifier for scanning tunneling microscopy at MHz frequencies"
   image: Fano.png
   description: We develop, build and test a novel amplifier circuit capable of measuring the tunneling current in the MHz regime while simultaneously performing conventional STM measurements. We are looking forward to performing scanning noise spectroscopy on quantum materials!
@@ -6,7 +16,8 @@
     url: https://arxiv.org/abs/1806.00374
     display:  arxiv:1806.00374 (2018)
   highlight: 1
-  news2: 
+  news2:
+
 
 - title: "Nanofabricated tips as a platform for double-tip and device based scanning tunneling microscopy"
   image: SmartPub.png
