@@ -6,7 +6,7 @@ sitemap: false
 permalink: /vacancies
 ---
 <span class='page-header'>
-Open positions
+# Open positions
 </span>
 We are always looking for new group members with passion, talent, and grit! 
 
