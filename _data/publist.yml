@@ -12,7 +12,7 @@
 #    display_text:  Project Page
 
 - title: "This is an example to illustrate the possible input fields that will be automatically parsed."
-  authors: KJ Joseph
+  authors: Joseph
   venue: "TheBestConf 2019"
   paper:
     url: https://arxiv.org/abs/1806.00174
