@@ -3,13 +3,26 @@
 #  venue: "TheBestConf 2019"
 #  paper:
 #    url: https://arxiv.org/abs/1806.00174
-#    display_text:  PDF
+#    display_text:  arXiv
 #  code:
 #    url: https://github.com
 #    display_text:  Github Link
 #  project_page:
 #    url: https://josephkj.in
 #    display_text:  Project Page
+
+- title: "This is an example to illustrate the possible input fields that will be automatically parsed."
+  authors: KJ Joseph
+  venue: "TheBestConf 2019"
+  paper:
+    url: https://arxiv.org/abs/1806.00174
+    display_text:  arXiv
+  code:
+    url: https://github.com
+    display_text:  Github Link
+  project_page:
+    url: https://josephkj.in
+    display_text:  Project Page
 
 - title: "Submodular Batch Selection for Training Deep Neural Networks"
   authors: Joseph K J, Vamshi Teja R, Krishnakant Singh, V. Balasubramanian
@@ -34,5 +47,27 @@
   authors: Arghya Pal, V. Balasubramanian
   venue: Proceedings of the IEEE/CVF International Conference on Computer Vision and Pattern Recognition (<b>CVPR’19</b>), Jun 2019. <span style='color:blue'>(Oral Paper)</span>
   paper:
-    url: https://arxiv.org/abs/1902.02302
+    url: https://arxiv.org/abs/1903.01092
     display_text:  arXiv
+
+- title: "Harnessing the Vulnerability of Latent Layers in Adversarially Trained Models"
+  authors: Mayank Singh, Abhishek Sinha, Nupur Kumari, Balaji Krishnamurthy, Harshitha Machiraju, V N Balasubramanian,
+  venue: Workshop on Safe Machine Learning, International Conference on Learning Representations (ICLR’19), May 2019.
+
+- title: "Beyond Supervised Learning: A Computer Vision Perspective"
+  authors: Lovish Chum, Anbumani S., V. Balasubramanian, C. V. Jawahar
+  venue: Journal of the Indian Institute of Science, pp 1-23, Feb 2019.
+  paper:
+    url: https://link.springer.com/article/10.1007/s41745-019-0099-3?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst&utm_source=ArticleAuthorOnlineFirst&utm_medium=email&utm_content=AA_en_06082018&ArticleAuthorOnlineFirst_20190221
+    display_text:  Springer Link
+
+- title: "C4Synth: Cross-Caption Cycle-Consistent Text-to-Image Synthesis"
+  authors: Joseph K.J, Arghya Pal, S. Rajanala, V. Balasubramanian,
+  venue: Proceedings of IEEE Winter Conference on Applications of Computer Vision (<b>WACV’19</b>), Jan 2019.
+  paper:
+    url: https://arxiv.org/abs/1809.10238
+    display_text:  arXiv
+
+- title: "Region-Based Active Learning for Efficient Labeling in Semantic Segmentation"
+  authors: Tejaswi K., Nagendar G., Guruprasad Hegde, V. Balasubramanian, C. V. Jawahar
+  venue: Proceedings of IEEE Winter Conference on Applications of Computer Vision (<b>WACV’19</b>), Jan 2019.
