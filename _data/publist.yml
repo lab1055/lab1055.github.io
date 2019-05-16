@@ -7,6 +7,9 @@
   code:
     url: https://github.com
     display_text:  Github Link
+  project_page:
+    url: https://josephkj.in
+    display_text:  Project Page
 
 - title: "(only paper)This is a paper to generate this website."
   authors: KM Bastiaans, T Benschop, D Chatzopoulos, DH Cho, Q Dong, Y Jin, MP Allan

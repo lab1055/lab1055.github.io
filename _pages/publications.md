@@ -62,8 +62,9 @@ Publications
   {{ publi.title }} <br />
   <em>{{ publi.authors }} </em><br />
   <em>{{ publi.venue }} </em><br />
-  <a href="{{ publi.paper.url }}">{{ \[publi.paper.display_text\] }}</a>
-  <a href="{{ publi.code.url }}">{{ \[publi.code.display_text\] }}</a>
+  <a href="{{ publi.paper.url }}">{{ (publi.paper.display_text) }}</a>
+  <a href="{{ publi.code.url }}">{{ (publi.code.display_text) }}</a>
+  <a href="{{ publi.project_page.url }}">{{ (publi.project_page.display_text) }}</a>
 
 {% endfor %}
 
