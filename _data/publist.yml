@@ -1,5 +1,5 @@
 #- title: "This is an example to illustrate the possible input fields that will be automatically parsed."
-#  authors: KJ Joseph
+#  authors: Joseph
 #  venue: "TheBestConf 2019"
 #  paper:
 #    url: https://arxiv.org/abs/1806.00174
@@ -10,19 +10,6 @@
 #  project_page:
 #    url: https://josephkj.in
 #    display_text:  Project Page
-
-- title: "This is an example to illustrate the possible input fields that will be automatically parsed."
-  authors: Joseph
-  venue: "TheBestConf 2019"
-  paper:
-    url: https://arxiv.org/abs/1806.00174
-    display_text:  arXiv
-  code:
-    url: https://github.com
-    display_text:  Github Link
-  project_page:
-    url: https://josephkj.in
-    display_text:  Project Page
 
 - title: "Submodular Batch Selection for Training Deep Neural Networks"
   authors: Joseph K J, Vamshi Teja R, Krishnakant Singh, V. Balasubramanian
