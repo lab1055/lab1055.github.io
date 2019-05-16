@@ -10,8 +10,10 @@ permalink: /contact/
 Contact us
 </h1>
 
+#### Lab Address
+
 Lab C-310, <br/>
-Academic Building C, <br/>
+Academic Block C, <br/>
 Department of Computer Science and Engineering, <br/>
 Indian Institute of Technology Hyderabad, <br/>
 Kandi, Sangareddy, <br/>
