@@ -25,3 +25,14 @@
   paper:
     url: https://arxiv.org/abs/1902.02302
     display_text:  arXiv
+
+- title: "Borrow from Anywhere: Pseudo Multi-modal Object Detection in Thermal Imagery"
+  authors: Chaitanya Devaguptapu, Ninad Akolekar, Manuj Sharma, V. Balasubramanian
+  venue: Workshop on Perception beyond the Visible Spectrum, IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR’19), Jun 2019.
+
+- title: "Zero-shot Task Transfer"
+  authors: Arghya Pal, V. Balasubramanian
+  venue: Proceedings of the IEEE/CVF International Conference on Computer Vision and Pattern Recognition (<b>CVPR’19</b>), Jun 2019. <span style='color:blue'>(Oral Paper)</span>
+  paper:
+    url: https://arxiv.org/abs/1902.02302
+    display_text:  arXiv
