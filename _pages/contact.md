@@ -12,6 +12,7 @@ Contact us
 
 #### Lab Address
 
+<span style='padding-left: 27px;'>
 Lab C-310, <br/>
 Academic Block C, <br/>
 Department of Computer Science and Engineering, <br/>
@@ -20,6 +21,7 @@ Kandi, Sangareddy, <br/>
 Telangana,<br/>
 India. <br/>
 Pincode: 502 285 
+</span>
 
 #### We always love hearing from you. Our team would be / were at:
 
