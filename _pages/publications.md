@@ -1,13 +1,14 @@
 ---
-title: "Allan Lab - Publications"
+title: "Publications"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "Publications"
 sitemap: false
 permalink: /publications/
 ---
 
-
-# Publications
+<h1 class='page-header'>
+Publications
+</h1>
 
 <!--
 ## Highlights
