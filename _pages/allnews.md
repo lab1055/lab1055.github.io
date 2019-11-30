@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning and Vision Group - News"
 layout: textlay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "Machine Learning and Vision Group News"
 sitemap: false
 permalink: /allnews.html
 ---

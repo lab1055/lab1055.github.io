@@ -9,9 +9,8 @@
 title: Machine Learning and Vision Group - IIT Hyderabad
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Our group’s research interests lie at the intersection of the theory and application of machine learning - with a focus on applications in computer vision. With a strong interest in the mathematical fundamentals and a passion for real-world application, our group aims on being at the forefront of the field, by publishing in the best of venues in the areas of machine learning and computer vision, while at the same time, being guided by application contexts derived from real-world use.
+
 baseurl: ""
 url: ""
 
