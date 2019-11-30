@@ -3,7 +3,7 @@ title: "Machine Learning and Vision Group - IIT Hyderabad"
 layout: homelay
 excerpt: "Machine Learning and Vision Group - IIT Hyderabad"
 sitemap: false
-permalink: /
+permalink: /about/
 ---
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
