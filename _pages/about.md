@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning and Vision Group - IIT Hyderabad"
 layout: homelay
-excerpt: "Machine Learning and Vision Group - IIT Hyderabad"
+excerpt: "About Us"
 sitemap: false
 permalink: /about/
 ---
