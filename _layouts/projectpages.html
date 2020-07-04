@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<!-- {{ content }} -->
+{% assign project_data = site.data.projectpages.[page.title] %}
+{% assign authors = site.data.projectpages.[page.title].authors | split: ", " %}
+{% assign accepted_by = site.data.projectpages.[page.title].accepted_by | split: ", " %}
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12" style="text-align: center;">
+      <!-- Title -->
+      <h2>{{ project_data.title}}</h2>
+      <!-- Authors list -->
+      <div class="authors">
+        {% for author in authors %}
+        <div class="author">
+          {{ author }}
+        </div>
+        {% endfor %}
+      </div> 
+      <!-- Accepted by -->
+      <div class="authors" style="margin-top: 10px;">
+        {% for author in accepted_by %}
+        <div class="author">
+          {{ author }}
+        </div>
+        {% endfor %}
+      </div> 
+    </div>
+  </div>
+  <!-- If there is an image add here -->
+  <!-- <div class="row">
+  </div> -->
+  <div class="row" style="margin-top: 50px;">
+    <div class="col-sm-8">
+      <h3>Abstract</h3>
+      <p style="font-size: 16px;">
+        {{ project_data.abstract }}
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Materials</h3>
+      <ul style="padding-left: 0; list-style-type: none; font-size: 16px;">
+        {% if project_data.materials.paper_url %}
+        <li><a href="{{project_data.materials.paper_url}}"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Paper</a></li>
+        {% endif %}
+        {% if project_data.materials.code_url %}
+        <li><a href="{{project_data.materials.code_url}}"><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Code</a></li>
+        {% endif %}
+        {% if project_data.materials.bibtex %}
+        <li><a href="{{project_data.materials.bibtex}}"><span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Copy Bibtex</a></li>
+        {% endif %}
+        {% if project_data.materials.poster %}
+        <li><a href="{{project_data.materials.poster}}"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Poster</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</div>
+

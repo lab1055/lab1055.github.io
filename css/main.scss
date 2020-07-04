@@ -11,6 +11,7 @@ img { margin-bottom: 24px;
 
 body {
 	padding-top: 70px;
+	font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 figcaption {
@@ -23,6 +24,23 @@ figcaption {
 
 /* Top navigation bar */
 
+// .navbar-default {
+// 	background-color: #1B374C;
+// 	border-color: #108896;
+// 	.navbar-nav {
+// 		li {
+// 			a {
+// 				color: #cccccc;
+// 			}
+// 		}
+// 	}
+// 	.navbar-brand {
+// 		padding: 19px 0px;
+// 		font-size: 20px;
+// 		font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+// 		color: #eeeeee;
+// 	}
+// }
 
 p.byline {
 	text-align: center;
@@ -89,5 +107,18 @@ firstp {
     margin-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+// project page CSS
+.authors {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	font-size: 15px;
+	margin-top: 40px;
+	.author {
+		flex: 1 0 18%;
+	}
 }
 

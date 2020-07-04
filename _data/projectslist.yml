@@ -1,0 +1,7 @@
+- name: 'Project 1'
+  url: 'projectpages/page1'
+  data: 'projectpages/page1.md'
+
+- name: 'Project 2'
+  url: 'projectpages/page2'
+  data: 'projectpages/page2.md'
