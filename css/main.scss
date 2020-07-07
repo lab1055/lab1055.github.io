@@ -11,7 +11,13 @@ img { margin-bottom: 24px;
 
 body {
 	padding-top: 70px;
-	font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	// font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+	// Font trials
+	font-family: 'Work Sans', sans-serif;
+	// font-family: 'Markazi Text', serif;
+	// font-family: 'Maven Pro', sans-serif;
+	// font-family: 'Space Mono', monospace;
 }
 
 figcaption {
@@ -20,27 +26,62 @@ figcaption {
     margin-bottom: 20px;
 }
 
+p {
+	color: #76838f;
+}
+
+ul {
+	li {
+		color: #76838f;
+	}
+}
+
+h1, h2, h3 {
+	color: #37474f;
+}
+
+h4, h5, h6 {
+	color: #526069;
+}
+
 
 
 /* Top navigation bar */
 
-// .navbar-default {
-// 	background-color: #1B374C;
-// 	border-color: #108896;
-// 	.navbar-nav {
-// 		li {
-// 			a {
-// 				color: #cccccc;
-// 			}
-// 		}
-// 	}
-// 	.navbar-brand {
-// 		padding: 19px 0px;
-// 		font-size: 20px;
-// 		font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-// 		color: #eeeeee;
-// 	}
-// }
+.navbar-default {
+	background-color: #007D96;
+	// border-color: #108896;
+	.navbar-nav {
+		li {
+			a {
+				color: #fff;
+			}
+			a:hover {
+				color: #fff;
+				background-color: #0099B8;		
+			}
+		}
+	}
+	.navbar-brand {
+		// padding: 19px 0px;
+		// font-size: 20px;
+		// font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #fff;
+	}
+	.navbar-brand:hover {
+		color: #fff;
+		background-color: transparent;
+	}
+}
+
+.well {
+	background-color: #c2f5ff61;
+}
+
+.navbar {
+	border-bottom: 2px solid #54CBE3;
+	box-shadow: none;
+}
 
 p.byline {
 	text-align: center;

@@ -15,6 +15,7 @@
   title: "Submodular Batch Selection for Training Deep Neural Networks"
   authors: Joseph K J, Vamshi Teja R, Krishnakant Singh, V. Balasubramanian
   venue: Proceedings of International Joint Conference on Artificial Intelligence (<b>IJCAI’19</b>), Aug 2019. 
+  # TODO: webpage, code, paper
 
 - year: 2019
   title: "Harnessing the Vulnerability of Latent Layers in Adversarially Trained Models"
