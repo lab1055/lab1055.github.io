@@ -9,9 +9,9 @@
 #  education4:
 
 - name: Adepu Ravi Sankar
-  photo: placeholder.jpg
+  photo: cs14resch11001.jpg
   desig: PhD Student
-  info: "Intel PhD Fellow, 2014 - "
+  info: "Intel PhD Fellow, 2014 - Present"
   id: cs14resch11001
   webpage: "https://ravisankaradepu.github.io/"
   affiliations: IIT Hyderabad
@@ -19,63 +19,45 @@
 - name: Arghya Pal
   photo: placeholder.jpg
   desig: PhD Student
-  info: "Intel PhD Fellow, 2015 - "
+  info: "Intel PhD Fellow, 2015 - Present"
   id: cs15resch11001
   affiliations: IIT Hyderabad, IIT Hyderabad2
 
 - name: Krishna Rao Kakkirala
   photo: placeholder.jpg
   desig: PhD Student
-  info: "Part-time, employed at TCS Research, 2015 - "
+  info: "Part-time, employed at TCS Research, 2015 - Present"
   id: cs15resch11005
   affiliations: IIT Hyderabad, IIT Hyderabad2, IIT Hyderabad3
 
 - name: Anirban Sarkar
   photo: placeholder.jpg
   desig: PhD Student
-  info: "2016 - "
+  info: "2016 - Present"
   id: cs16resch11006
   affiliations: IIT Hyderabad, IIT Hyderabad3
 
 - name: K J Joseph
-  photo: placeholder.jpg
+  photo: cs17m18p100001.jpg
   desig: PhD Student
-  info: "2017 - "
+  info: "2017 - Present"
   id: cs17m18p100001
   webpage: "https://josephkj.in/"
   affiliations: IIT Hyderabad, IIT Hyderabad2, IIT Hyderabad3
 
-- name: Sai Vikas Desai
-  photo: placeholder.jpg
-  desig: MTech Student
-  info: "2017 - "
-  id: cs17mtech11011
-  affiliations: IIT Hyderabad3
-
-- name: Nehal Mamgain
-  photo: placeholder.jpg
-  desig: MTech Student
-  info: "2018 - "
-  id: cs17mtech11023
-  affiliations: IIT Hyderabad2
-
-- name: Smrutiranjan Sahu
-  photo: placeholder.jpg
-  desig: MTech Student
-  info: "2018 - "
-  id: cs16mds11031
-  affiliations: IIT Hyderabad2, IIT Hyderabad3
-
-- name: Uttaran Sinha
-  photo: placeholder.jpg
-  desig: MTech Student
-  info: "2018 - "
-  id: cs17mtech11003
+- name: Abbavaram Gowtham Reddy
+  photo: cs19resch11002.jpg
+  desig: PhD Student
+  info: "2019 - Present"
+  id: cs19resch11002
+  webpage: "https://sites.google.com/view/gowthamabbavaram/abbavaramgowthamreddy"
   affiliations: IIT Hyderabad, IIT Hyderabad2, IIT Hyderabad3
 
-- name: Piyushi Manupriya
-  photo: placeholder.jpg
-  desig: MTech Student
-  info: "2018 - "
-  id: cs18mtech11019
-  affiliations: IIT Hyderabad, IIT Hyderabad2
+- name: Bhat Dittakavi
+  photo: ai19resch11001.jpeg
+  desig: PhD Student
+  info: "2019 - Present"
+  id: ai19resch11001
+  webpage: "http://www.bhatsnotes.com"
+  affiliations: IIT Hyderabad, IIT Hyderabad2, IIT Hyderabad3
+

@@ -1,4 +1,72 @@
+- name: Uttaran Sinha
+  photo: cs17mtech11003.jfif
+  info: "2018 - Present"
+  id: cs17mtech11003
+  affiliations: IIT Hyderabad, IIT Hyderabad2, IIT Hyderabad3
+  webpage: https://uttaransinha.github.io/ 
+
+- name: Akshay L Chandra
+  id: akshaychandra
+  info: "2018 - Present"
+  webpage: "https://akshaychandra.com/"
+  affiliations: IIT Hyderabad
+  photo: akshaychandra.png
+
+- name: Radhika Dua
+  id: radhikadua
+  info: "2018 - Present"
+  webpage: "https://radhikadua123.github.io/"
+  affiliations: IIT Hyderabad
+  photo: radhikadua.jpg
+
+- name: Kancheti Sai Srinivas
+  id: saisrinivas
+  info: "2019 - Present"
+  email: 
+  # webpage: "https://ravisankaradepu.github.io/"
+  affiliations: KMIT, Hyderabad
+  photo: placeholder.jpg
+
+- name: Gaurav Bhatt
+  photo: gauravbhatt.jpg
+  info: "2019 - Present"
+  id: gauravbhatt
+  affiliations: IIT Hyderabad, IIT Hyderabad2, IIT Hyderabad3
+  # webpage: 
+
+- name: Shivam Chandhok
+  id: shivamchandhok
+  info: "2019 - Present"
+  # webpage: "https://ravisankaradepu.github.io/"
+  affiliations: IIT Hyderabad
+  photo: shivamchandhok.jpg
+
+- name: Rahul Vigneswaran K
+  id: rahulvigneswaran
+  info: "2019 - Present"
+  webpage: "https://rahulvigneswaran.github.io/"
+  affiliations: IIT Hyderabad
+  photo: rahulvigneswaran.png
+  google-scholar: https://scholar.google.co.in/citations?user=s7P6kbsAAAAJ&hl=en
+
+- name: Vaasudev Narayanan
+  id: 
+  info: "2020 - Present"
+  webpage: "https://vdevmcitylp.github.io/"
+  affiliations: 
+  photo: placeholder.jpg
+  google-scholar: https://scholar.google.co.in/citations?user=ncXa5P0AAAAJ&hl=en
+
+- name: Benin Godfrey L
+  id: 
+  info: "2020 - Present"
+  webpage: 
+  affiliations: 
+  photo: placeholder.jpg
+
 - name: Medha Chakravarthula
-  id: reschtp001
-  webpage: "https://ravisankaradepu.github.io/"
-  affiliations: John Hopkins University, IIT Hyderabad
+  id: 
+  info: "2020 - Present"
+  webpage: "https://medha.ch/"
+  affiliations: 
+  photo: placeholder.jpg

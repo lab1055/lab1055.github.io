@@ -1,0 +1,60 @@
+
+- name: Sai Vikas Desai
+  photo: cs17mtech11011.jpg
+  desig: MTech Student
+  info: "2017 - Present"
+  id: cs17mtech11011
+  webpage: https://svdesai.github.io/
+  affiliations: IIT Hyderabad3
+
+- name: Piyushi Manupriya
+  photo: cs18mtech11019.jpg
+  desig: MTech Student
+  info: "2018 - Present"
+  id: cs18mtech11019
+  affiliations: IIT Hyderabad, IIT Hyderabad2
+  webpage: https://piyushi-0.github.io/
+  google-scholar: https://scholar.google.com/citations?user=-9baEZEAAAAJ&hl=en
+
+- name: Chaitanya Devaguptapu
+  photo: cs19mtech11025.jpg
+  desig: MTech Student
+  info: "2019 - Present"
+  id: cs19mtech11025
+  webpage: https://tdchaitanya.github.io/
+  affiliations: IIT Hyderabad3
+
+- name: Smruti Charkha
+  photo: placeholder-f.jpg
+  desig: MTech Student
+  info: "2019 - "
+  id: cs18mtech11011
+  affiliations: IIT Hyderabad2, IIT Hyderabad3
+
+- name: Sai Eswar Garapati
+  photo: placeholder.jpg
+  desig: MTech Student
+  info: "2019 - Present"
+  id: cs18mtech11019
+  affiliations: IIT Hyderabad, IIT Hyderabad2
+
+- name: Rohit Dubey
+  photo: placeholder.jpg
+  desig: MTech Student
+  info: "2019 - Present"
+  id: cs18mtech11019
+  affiliations: IIT Hyderabad, IIT Hyderabad2
+
+- name: Kunal Kadian
+  photo: placeholder.jpg
+  desig: MTech Student
+  info: "2020 - Present"
+  id: cs18mtech11019
+  affiliations: IIT Hyderabad, IIT Hyderabad2
+
+- name: Nishit Shah
+  photo: placeholder.jpg
+  desig: MTech Student
+  info: "2020 - Present"
+  id: cs18mtech11019
+  affiliations: IIT Hyderabad, IIT Hyderabad2
