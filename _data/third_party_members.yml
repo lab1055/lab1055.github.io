@@ -2,25 +2,29 @@
   photo: cs17mtech11003.jfif
   info: "2018 - Present"
   id: cs17mtech11003
+  email: cs17mtech11003@iith.ac.in
   affiliations: IIT Hyderabad, IIT Hyderabad2, IIT Hyderabad3
   webpage: https://uttaransinha.github.io/ 
 
 - name: Akshay L Chandra
   id: akshaychandra
-  info: "2018 - Present"
+  email: akshaychandra@iith.ac.in
+  info: "2019 - Present"
   webpage: "https://akshaychandra.com/"
   affiliations: IIT Hyderabad
   photo: akshaychandra.png
 
 - name: Radhika Dua
   id: radhikadua
-  info: "2018 - Present"
+  email: radhikadua@iith.ac.in
+  info: "2019 - Present"
   webpage: "https://radhikadua123.github.io/"
   affiliations: IIT Hyderabad
   photo: radhikadua.jpg
 
 - name: Kancheti Sai Srinivas
   id: saisrinivas
+  email: saisrinivas@iith.ac.in
   info: "2019 - Present"
   email: 
   # webpage: "https://ravisankaradepu.github.io/"
@@ -31,11 +35,13 @@
   photo: gauravbhatt.jpg
   info: "2019 - Present"
   id: gauravbhatt
+  email: gauravbhatt@iith.ac.in
   affiliations: IIT Hyderabad, IIT Hyderabad2, IIT Hyderabad3
   # webpage: 
 
 - name: Shivam Chandhok
   id: shivamchandhok
+  email: shivamchandhok@iith.ac.in
   info: "2019 - Present"
   # webpage: "https://ravisankaradepu.github.io/"
   affiliations: IIT Hyderabad
@@ -43,6 +49,7 @@
 
 - name: Rahul Vigneswaran K
   id: rahulvigneswaran
+  email: rahulvigneswaran@iith.ac.in
   info: "2019 - Present"
   webpage: "https://rahulvigneswaran.github.io/"
   affiliations: IIT Hyderabad
@@ -51,22 +58,32 @@
 
 - name: Vaasudev Narayanan
   id: 
+  email: 
   info: "2020 - Present"
   webpage: "https://vdevmcitylp.github.io/"
   affiliations: 
-  photo: placeholder.jpg
+  photo: vaasudev.jpg
   google-scholar: https://scholar.google.co.in/citations?user=ncXa5P0AAAAJ&hl=en
 
 - name: Benin Godfrey L
   id: 
+  email:
   info: "2020 - Present"
   webpage: 
   affiliations: 
   photo: placeholder.jpg
 
-- name: Medha Chakravarthula
+- name: Neha Tarigopula
   id: 
+  email: 
   info: "2020 - Present"
-  webpage: "https://medha.ch/"
+  webpage: 
   affiliations: 
-  photo: placeholder.jpg
+  photo: placeholder-f.jpg
+
+# - name: Medha Chakravarthula
+#   id: 
+#   info: "2020 - Present"
+#   webpage: "https://medha.ch/"
+#   affiliations: 
+#   photo: placeholder.jpg
