@@ -31,10 +31,11 @@
   google-scholar: https://scholar.google.com/citations?user=aHI6gloAAAAJ&hl=en
 
 - name: Yash Khasbhage
-  photo: placeholder.jpg
+  photo: cs17btech11044.jpg
   desig: BTech Student
   # info: "2019 - Present"
   id: cs17btech11044
+  webpage: http://yashkhasbage25.github.io
   affiliations: IIT Hyderabad
 
 - name: Vedant Singh
