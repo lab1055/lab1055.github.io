@@ -61,7 +61,7 @@
 
 - year: 2019
   title: "C4Synth: Cross-Caption Cycle-Consistent Text-to-Image Synthesis"
-  authors: Joseph K.J, Arghya Pal, S. Rajanala, V. Balasubramanian,
+  authors: Joseph K.J, Arghya Pal, S. Rajanala, V. Balasubramanian
   venue: Proceedings of IEEE Winter Conference on Applications of Computer Vision (<b>WACV’19</b>), Jan 2019.
   paper:
     url: https://arxiv.org/abs/1809.10238
