@@ -9,7 +9,7 @@ permalink: /team/
 ### Phd Students
 
 {% assign number_printed = 0 %}
-{% for member in site.data.students_phd %}
+{% for member in site.data.current_students.phd %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -93,7 +93,7 @@ ID: {{ member.id }}</i>
 ### Masters Students
 
 {% assign number_printed = 0 %}
-{% for member in site.data.students_masters %}
+{% for member in site.data.current_students.masters %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -174,7 +174,7 @@ ID: {{ member.id }}</i>
 ### Research Assistants/Interns
 
 {% assign number_printed = 0 %}
-{% for member in site.data.third_party_members %}
+{% for member in site.data.current_students.third_party_members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -255,7 +255,7 @@ ID: {{ member.id }}</i>
 ### Undergrad Students
 
 {% assign number_printed = 0 %}
-{% for member in site.data.students_undergrad %}
+{% for member in site.data.current_students.undergrad %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
