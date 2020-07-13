@@ -5,22 +5,8 @@ layout: default
 <!-- {{ content }} -->
 {% assign project_data = site.data.projectpages.[page.title] %}
 {% assign authors = site.data.projectpages.[page.title].authors | split: ", " %}
+{% assign affiliations = site.data.projectpages.[page.title].affiliations | split: ", " %}
 {% assign accepted_by = site.data.projectpages.[page.title].accepted_by | split: ", " %}
-{% assign affiliations = "medha" %}
-<!-- Get all affiliations of all authors -->
-{% for author in authors %}
-  {% for student in site.data.students %}
-    {% if student.name == author %}
-      <!-- {% assign dummy = student.affiliations | split: "," %} -->
-      {% assign aff = student.affiliations | split: ","  %}
-      <!-- {{affiliations}}  -->
-      {% assign affiliations = aff | concat: affiliations %}
-      {{affiliations}} <br/>
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-<!-- {% assign affiliations =  %} -->
-
 
 <div class="container-fluid">
   <div class="row">
@@ -31,23 +17,25 @@ layout: default
       <!-- Authors list -->
       <div class="authors">
         {% for author in authors %}
-        <div class="author">
-          {{ author }}
-        </div>
+          {% assign name = author | split: "-" %}
+          <div class="author">
+            {{ name[0] }}<sup class="affs">{{ name[1] | replace: ";", "," }}</sup>
+          </div>          
         {% endfor %}
       </div> 
 
       <!-- Affiliations -->
-      <div class="authors">
+      <div class="authors" style="margin-top: 10px; font-size: 16px;">
         {% for author in affiliations %}
-        <div class="author">
-          {{ author }}
-        </div>
+        {% assign name = author | split: "-" %}
+          <div class="author">
+            <sup class="affs">{{ name[0] }}</sup>{{ name[1] }}
+          </div>
         {% endfor %}
       </div> 
 
       <!-- Accepted by -->
-      <div class="authors" style="margin-top: 10px;">
+      <div class="authors" style="margin-top: 30px;">
         {% for author in accepted_by %}
         <div class="author">
           {{ author }}
@@ -70,16 +58,16 @@ layout: default
       <h3>Materials</h3>
       <ul style="padding-left: 0; list-style-type: none; font-size: 16px;">
         {% if project_data.materials.paper_url %}
-        <li><a style="color: #007d95;" href="{{project_data.materials.paper_url}}"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Paper</a></li>
+        <li><a style="color: #f4733e;" href="{{project_data.materials.paper_url}}"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Paper</a></li>
         {% endif %}
         {% if project_data.materials.code_url %}
-        <li><a style="color: #007d95;" href="{{project_data.materials.code_url}}"><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Code</a></li>
+        <li><a style="color: #f4733e;" href="{{project_data.materials.code_url}}"><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Code</a></li>
         {% endif %}
         {% if project_data.materials.bibtex %}
-        <li><a style="color: #007d95;" href="{{project_data.materials.bibtex}}"><span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Copy Bibtex</a></li>
+        <li><a style="color: #f4733e;" href="{{project_data.materials.bibtex}}"><span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Copy Bibtex</a></li>
         {% endif %}
         {% if project_data.materials.poster %}
-        <li><a style="color: #007d95;" href="{{project_data.materials.poster}}"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Poster</a></li>
+        <li><a style="color: #f4733e;" href="{{project_data.materials.poster}}"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Poster</a></li>
         {% endif %}
       </ul>
     </div>

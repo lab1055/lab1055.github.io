@@ -11,5 +11,5 @@ News
 </h1>
 
 {% for article in site.data.news %}
-<p style="color: #76838f"><span style="font-family: monaco, monospace; background-color: #c2f5ff94; color: #526069">({{ article.date }})</span>: {{ article.headline }}</p>
+<p style="color: #777676"><span style="font-family: monaco, monospace; background-color: #f4733e38; color: #526069">({{ article.date }})</span>: {{ article.headline }}</p>
 {% endfor %}
