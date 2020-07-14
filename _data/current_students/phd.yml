@@ -1,12 +1,8 @@
 #- name: 
-#  photo: rock.jpg
+#  photo: 
 #  info:
 #  email:
-#  number_educ: 
-#  education1:  
-#  education2:  
-#  education3: 
-#  education4:
+
 
 - name: Adepu Ravi Sankar
   photo: cs14resch11001.jpg
@@ -16,7 +12,7 @@
   email: cs14resch11001@iith.ac.in
   webpage: "https://ravisankaradepu.github.io/"
   google-scholar: https://scholar.google.co.in/citations?user=43wGB98AAAAJ&hl=en
-  affiliations: IIT Hyderabad
+  topics: Machine learning, Deep Learning, Optimization
 
 - name: Arghya Pal
   photo: cs15resch11001.jpg

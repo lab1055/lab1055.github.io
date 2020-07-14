@@ -16,17 +16,17 @@ layout: default
     <div style="font-size: 20px;">{{ publi.title }}</div>
     <div style="font-size: 14px;"><em>{{ publi.authors }} </em></div>
     <div style="font-size: 12px;">{{ publi.venue }}</div>
-    {% if publi.paper.url %}<a
-      style="margin-right: 20px;"
-      href="{{ site.url }}{{ site.baseurl }}/projectpages/{{ publi.paper.key }}"
-      ><i class="fas fa-file-invoice"></i> Project Page</a
-    >
-    {% endif %} {% if publi.code.url %}<a style="margin-right: 20px;" href="{{ publi.code.url }}"
-      ><i class="fas fa-file-code"></i> Code</a
-    >
-    {% endif %} {% if publi.paper.url %}<a style="margin-right: 20px;" href="{{ publi.paper.url }}"
+    {% if publi.paper.url %}<a style="margin-right: 20px;" href="{{ publi.paper.url }}"
       ><i class="fas fa-file-alt"></i> Paper</a
     >
+    {% endif %} {% if publi.code.url %}<a style="margin-right: 20px;" href="{{ publi.code.url }}"
+    ><i class="fas fa-file-code"></i> Code</a
+  >
+    {% endif %} {% if publi.project_page.url %}<a
+    style="margin-right: 20px;"
+    href="{{ site.url }}{{ site.baseurl }}/projectpages/{{ publi.project_page.url }}"
+    ><i class="fas fa-file-invoice"></i> Project Page</a
+  >
     {% endif %}
   </div>
   {% endfor %} {% endif %} {% endfor %}
