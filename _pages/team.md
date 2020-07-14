@@ -26,9 +26,8 @@ permalink: /team/
   <h4>{{ member.name }}</h4>
   {% endif %}
 
-<i>{{ member.desig }}</i> <br/>
 <i>{{ member.info }}<br/>
-ID: {{ member.id }}</i>
+<i> {{member.topics}}<br />
 
   <!-- email, gscholar -->
   <div class="" style="display: flex">
@@ -39,40 +38,6 @@ ID: {{ member.id }}</i>
   <a href="{{member.google-scholar}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="ai ai-google-scholar-square ai-3x"></i></a>
   {% endif %}
   </div>
-  
-  <ul style="overflow: hidden">
-  
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
- 
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-  
-  </ul>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -109,9 +74,9 @@ ID: {{ member.id }}</i>
   {% else %}
   <h4>{{ member.name }}</h4>
   {% endif %}
-  <i>{{ member.desig }}</i> <br/>
+  <!-- <i>{{ member.desig }}</i> <br/> -->
   <i>{{ member.info }}<br/>
-  ID: {{ member.id }}</i> 
+  <i>{{member.topics}} <br />
   <div class="" style="display: flex">
   {% if member.email.size > 0 %}
   <a href="mailto: {{member.email}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="fa fa-envelope"></i></a>
@@ -120,40 +85,6 @@ ID: {{ member.id }}</i>
   <a href="{{member.google-scholar}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="ai ai-google-scholar-square ai-3x"></i></a>
   {% endif %}
   </div>
-  
-  <ul style="overflow: hidden">
-  
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
- 
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-  
-  </ul>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -192,7 +123,7 @@ ID: {{ member.id }}</i>
   {% endif %}
   <!-- <i>{{ member.desig }}</i> <br/> -->
   <i>{{ member.info }}<br/>
-  ID: {{ member.id }}</i> 
+  <i>{{member.topics}} <br />
   <div class="" style="display: flex">
   {% if member.email.size > 0 %}
   <a href="mailto: {{member.email}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="fa fa-envelope"></i></a>
@@ -202,39 +133,6 @@ ID: {{ member.id }}</i>
   {% endif %}
   </div>
   
-  <ul style="overflow: hidden">
-  
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
- 
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-  
-  </ul>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -271,9 +169,9 @@ ID: {{ member.id }}</i>
   {% else %}
   <h4>{{ member.name }}</h4>
   {% endif %}
-  <i>{{ member.desig }}</i> <br/>
+  <!-- <i>{{ member.desig }}</i> <br/> -->
   <i>{{ member.info }}<br/>
-  ID: {{ member.id }}</i> 
+  <i>{{member.topics}} <br />
   <div class="" style="display: flex">
   {% if member.email.size > 0 %}
   <a href="mailto: {{member.email}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="fa fa-envelope"></i></a>
@@ -282,40 +180,6 @@ ID: {{ member.id }}</i>
   <a href="{{member.google-scholar}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="ai ai-google-scholar-square ai-3x"></i></a>
   {% endif %}
   </div>
-  
-  <ul style="overflow: hidden">
-  
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
- 
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-  
-  </ul>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}

@@ -1,68 +1,13 @@
+- name: Sai Vikas Desai
+  info: '2017 - 18'
+  next: Toyota Research Institute, Tokyo
+  # optional
+  accomplishments: Silver Medal for Academic Excellence in MTech in CSE
+  webpage: https://supriya-pandhre.github.io/
 
-- name: Ninad Akolekar
-  photo: cs16btech11024.jpg
-  desig: BTech Student
-  # info: "2017 - Present"
-  id: cs16btech11024
-  webpage: 
-  affiliations: IIT Hyderabad
-
-- name: Udit Maniyar
-  photo: placeholder.jpg
-  desig: BTech Student
-  # info: "2018 - Present"
-  id: es16btech11024
-  affiliations: IIT Hyderabad
-
-- name: Surgan Jandial
-  photo: cs17btech11038.jpg
-  desig: BTech Student
-  # info: "2019 - Present"
-  id: cs17btech11038
-  webpage: 
-  affiliations: IIT Hyderabad
-
-- name: Puneet Mangla
-  photo: cs17btech11029.jpg
-  desig: BTech Student
-  # info: "2019 - "
-  id: cs17btech11029
-  affiliations: IIT Hyderabad
-  google-scholar: https://scholar.google.com/citations?user=aHI6gloAAAAJ&hl=en
-
-- name: Yash Khasbhage
-  photo: cs17btech11044.jpg
-  desig: BTech Student
-  # info: "2019 - Present"
-  id: cs17btech11044
-  webpage: http://yashkhasbage25.github.io
-  affiliations: IIT Hyderabad
-
-- name: Vedant Singh
-  photo: placeholder.jpg
-  desig: BTech Student
-  # info: "2019 - Present"
-  id: cs18btech11047
-  affiliations: IIT Hyderabad
-
-- name: Raj Patil
-  photo: placeholder.jpg
-  desig: BTech Student
-  # info: "2020 - Present"
-  id: cs18btech11039
-  affiliations: IIT Hyderabad
-
-- name: Karan Bhukar
-  photo: placeholder.jpg
-  desig: BTech Student
-  # info: "2020 - Present"
-  id: cs18btech11021
-  affiliations: IIT Hyderabad
-
-- name: Shreyas Havaldar
-  photo: cs18btech11042.jpg
-  desig: BTech Student
-  # info: "2020 - Present"
-  id: cs18btech11042
-  affiliations: IIT Hyderabad
-  webpage: 
+- name: Sai Vikas Desai
+  info: '2017 - 18'
+  next: Toyota Research Institute, Tokyo
+  # optional
+  accomplishments: Silver Medal for Academic Excellence in MTech in CSE
+  webpage: https://supriya-pandhre.github.io/
