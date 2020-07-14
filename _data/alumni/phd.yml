@@ -1,16 +1,8 @@
-#- name:
-#  photo: rock.jpg
-#  info:
-#  email:
-#  number_educ:
-#  education1:
-#  education2:
-#  education3:
-#  education4:
+# - name: 
+#   info: 
+#   next: 
+#   # optional
+#   webpage: 
+#   accomplishments: 
 
-- name: Sai Vikas Desai
-  info: '2017 - 18'
-  next: Toyota Research Institute, Tokyo
-  # optional
-  accomplishments: Silver Medal for Academic Excellence in MTech in CSE
-  webpage: https://supriya-pandhre.github.io/
+

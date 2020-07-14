@@ -1,6 +1,27 @@
-- name: Sai Vikas Desai
-  info: '2017 - 18'
-  next: Toyota Research Institute, Tokyo
+# - name: 
+#   info: 
+#   next: 
+#   # optional
+#   webpage: 
+#   accomplishments: 
+
+- name: Harshitha Machiraju
+  info: 2018 - 19 
+  next: PhD, EPFL
   # optional
-  accomplishments: Silver Medal for Academic Excellence in MTech in CSE
-  webpage: https://supriya-pandhre.github.io/
+  webpage: 
+  accomplishments: 
+
+- name: Satwik Kondamudi
+  info: 2018-19
+  next: Deep Learning and Computer Vision R&D, Ernst and Young
+  # optional
+  webpage: 
+  accomplishments: 
+
+- name: Aditya Chattopadhyay
+  info: 2017 - 18
+  next: PhD, Johns Hopkins Univ under Prof Rene Vidal
+  # optional
+  webpage: 
+  accomplishments: 

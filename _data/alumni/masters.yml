@@ -1,13 +1,71 @@
-- name: Sai Vikas Desai
-  info: '2017 - 18'
-  next: Toyota Research Institute, Tokyo
-  # optional
-  accomplishments: Silver Medal for Academic Excellence in MTech in CSE
-  webpage: https://supriya-pandhre.github.io/
+# Please use this template
+# - name:
+#   info:
+#   next:
+#   # optional
+#   webpage:
+#   accomplishments:
 
-- name: Sai Vikas Desai 2
-  info: '2017 - 18'
+- name: Nehal Mamgain
+  info: 2018 - 19
   next: Toyota Research Institute, Tokyo
   # optional
+  webpage:
   accomplishments: Silver Medal for Academic Excellence in MTech in CSE
+
+- name: Smrutiranjan Sahu
+  info: 2015 - 18
+  next: Adobe -> Max Planck -> PhD, Simon Fraser University
+  # optional 
   webpage: https://supriya-pandhre.github.io/
+  accomplishments:
+
+- name: Krishnakant Singh
+  info: 2017 - 18 
+  next: Rakuten Research, Japan
+  # optional
+  webpage:
+  accomplishments:
+
+- name: Mehak
+  info: 2017 - 18 
+  next: Microsoft
+  # optional
+  webpage:
+  accomplishments:
+
+- name: Mausam Jain
+  info: 2016-17
+  next: Rakuten, Japan
+  # optional
+  webpage:
+  accomplishments:
+
+- name: Mittal Desai
+  info: 2015-16
+  next: Founder, Evangelysis
+  # optional
+  webpage:
+  accomplishments:
+
+- name: Bharat Bhusan Sau
+  info: 2015 - 16
+  next: Mobiliya R&D
+  # optional
+  webpage: 
+  accomplishments:
+
+- name: Anjali Singh
+  info: 2014 - 15
+  next: Strand Life Sciences
+  # optional
+  webpage: 
+  accomplishments:
+
+- name: Parag Jain
+  info: 2014-15
+  next:  Amazon -> IBM Research -> PhD, Univ of Edinburgh
+  # optional
+  webpage: http://pj-parag.github.io/about/
+  accomplishments:
+

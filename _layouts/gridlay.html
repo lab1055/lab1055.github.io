@@ -64,7 +64,7 @@ layout: default
     <h3> PhD Students </h3>
     <ul>
     {% for student in site.data.alumni.phd %}
-      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} (<i>Next: </i>{{student.next}}){% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
     {% endfor %}
     </ul>
     {% endif %}
@@ -73,7 +73,7 @@ layout: default
     <h3> Masters Students </h3>
     <ul>
     {% for student in site.data.alumni.masters %}
-      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} (<i>Next: </i>{{student.next}}){% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
     {% endfor %}
     </ul>
     {% endif %}
@@ -82,7 +82,7 @@ layout: default
     <h3> External </h3>
     <ul>
     {% for student in site.data.alumni.external %}
-      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} (<i>Next: </i>{{student.next}}){% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
     {% endfor %}
     </ul>
     {% endif %}
@@ -91,7 +91,7 @@ layout: default
     <h3> Project Assistants </h3>
     <ul>
     {% for student in site.data.alumni.project_assistants %}
-      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} (<i>Next: </i>{{student.next}}){% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
     {% endfor %}
     </ul>
     {% endif %}
@@ -100,7 +100,7 @@ layout: default
     <h3> Undergrad Students </h3>
     <ul>
     {% for student in site.data.alumni.undergrad %}
-      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} (<i>Next: </i>{{student.next}}){% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
     {% endfor %}
     </ul>
     {% endif %}
@@ -109,7 +109,7 @@ layout: default
     <h3> Interns </h3>
     <ul>
     {% for student in site.data.alumni.interns %}
-      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} (<i>Next: </i>{{student.next}}){% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
     {% endfor %}
     </ul>
     {% endif %}

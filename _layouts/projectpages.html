@@ -5,8 +5,8 @@ layout: default
 <!-- {{ content }} -->
 {% assign project_data = site.data.projectpages.[page.title] %} {% assign authors =
 site.data.projectpages.[page.title].authors | split: ", " %} {% assign affiliations =
-site.data.projectpages.[page.title].affiliations | split: ", " %} {% assign accepted_by =
-site.data.projectpages.[page.title].accepted_by | split: ", " %} {% assign bibtex =
+site.data.projectpages.[page.title].affiliations | split: ", " %} {% assign venue =
+site.data.projectpages.[page.title].venue | split: ", " %} {% assign bibtex =
 project_data.materials.bibtex %} {% assign bibtexcopied = false %}
 
 <div class="container-fluid">
@@ -33,7 +33,7 @@ project_data.materials.bibtex %} {% assign bibtexcopied = false %}
 
       <!-- Accepted by -->
       <div class="authors" style="margin-top: 30px;">
-        {% for author in accepted_by %}
+        {% for author in venue %}
         <div class="author">
           {{ author }}
         </div>
@@ -76,15 +76,15 @@ project_data.materials.bibtex %} {% assign bibtexcopied = false %}
       {% endif %} {% if project_data.acknowledgements %}
       <br />
       <h3>Acknowledgements</h3>
-      <div>
-        {{project_data.acknowledgements}}
-      </div>
+      <p style="font-size: 16px;">
+        {{ project_data.acknowledgements }}
+      </p>
       {% endif %} {% if project_data.contact %}
       <br />
       <h3>Contact</h3>
-      <div>
-        {{project_data.contact}}
-      </div>
+      <p style="font-size: 16px;">
+        {{ project_data.contact }}
+      </p>
       {% endif %}
     </div>
     <div class="col-sm-4">

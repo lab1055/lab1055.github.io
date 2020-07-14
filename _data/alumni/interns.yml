@@ -1,6 +1,41 @@
-- name: Sai Vikas Desai
-  info: '2017 - 18'
-  next: Toyota Research Institute, Tokyo
+# - name: 
+#   info: 
+#   next: 
+#   # optional
+#   webpage: 
+#   accomplishments: 
+
+- name: Sanny Kim
+  info: Minerva KGI, USA
+  next: 
   # optional
-  accomplishments: Silver Medal for Academic Excellence in MTech in CSE
-  webpage: https://supriya-pandhre.github.io/
+  webpage: 
+  accomplishments: 
+
+- name: G Sai Sudheer
+  info: Persistent Systems
+  next: 
+  # optional
+  webpage: 
+  accomplishments: 
+
+- name: Persistent Systems
+  info: NIT-Surathkal
+  next: Masters, CMU
+  # optional
+  webpage: 
+  accomplishments: 
+
+- name: Abarna Venkat
+  info: PSG-Coimbatore
+  next: 
+  # optional
+  webpage: 
+  accomplishments: 
+
+- name: Kamal Awasthi
+  info: 2017 - 18 (IIIT-Vadodara)
+  next: 
+  # optional
+  webpage: 
+  accomplishments: 

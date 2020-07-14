@@ -4,6 +4,7 @@
   desig: BTech Student
   # info: "2017 - Present"
   id: cs16btech11024
+  email: cs16btech11024@iith.ac.in
   webpage: 
   affiliations: IIT Hyderabad
 
@@ -12,13 +13,15 @@
   desig: BTech Student
   # info: "2018 - Present"
   id: es16btech11024
+  email: es16btech11024@iith.ac.in
   affiliations: IIT Hyderabad
 
 - name: Surgan Jandial
   photo: cs17btech11038.jpg
   desig: BTech Student
   # info: "2019 - Present"
-  id: cs17btech11038
+  id: es16btech11024
+  email: es16btech11024@iith.ac.in
   webpage: 
   affiliations: IIT Hyderabad
 
@@ -27,6 +30,7 @@
   desig: BTech Student
   # info: "2019 - "
   id: cs17btech11029
+  email: cs17btech11029@iith.ac.in
   affiliations: IIT Hyderabad
   google-scholar: https://scholar.google.com/citations?user=aHI6gloAAAAJ&hl=en
   topics: Uncertainty and Robustness, Interpretability, Fewshot/Meta Learning, Limited and Large scale Image generation
@@ -36,6 +40,7 @@
   desig: BTech Student
   # info: "2019 - Present"
   id: cs17btech11044
+  email: cs17btech11044@iith.ac.in
   webpage: http://yashkhasbage25.github.io
   affiliations: IIT Hyderabad
 
@@ -44,6 +49,7 @@
   desig: BTech Student
   # info: "2019 - Present"
   id: cs18btech11047
+  email: cs18btech11047@iith.ac.in
   affiliations: IIT Hyderabad
 
 - name: Raj Patil
@@ -51,6 +57,7 @@
   desig: BTech Student
   # info: "2020 - Present"
   id: cs18btech11039
+  email: cs18btech11039@iith.ac.in
   affiliations: IIT Hyderabad
 
 - name: Karan Bhukar
@@ -58,6 +65,7 @@
   desig: BTech Student
   # info: "2020 - Present"
   id: cs18btech11021
+  email: cs18btech11021@iith.ac.in
   affiliations: IIT Hyderabad
 
 - name: Shreyas Havaldar
@@ -65,5 +73,6 @@
   desig: BTech Student
   # info: "2020 - Present"
   id: cs18btech11042
+  email: cs18btech11042@iith.ac.in
   affiliations: IIT Hyderabad
   webpage: 

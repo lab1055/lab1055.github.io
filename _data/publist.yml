@@ -33,6 +33,8 @@
   venue: Proceedings of European Conference of Machine Learning and Principles and Practice of Knowledge Discovery in Databases (<b>ECML-PKDD'20</b>), Ghent, Belgium, Sep 2020.
   paper:
     url: https://arxiv.org/abs/2006.07828
+  project_page:
+    url: 2020_puneet_saliency
 
 - year: 2020
   title: 'Retrospective Loss: Looking Back to Improve Training of Deep Neural Networks'
@@ -40,6 +42,8 @@
   venue: Proceedings of ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD'20</b>), San Diego, Aug 2020.
   paper:
     url: https://arxiv.org/abs/2006.13593
+  project_page:
+    url: 2020_jandial_retrospective
 
 - year: 2020
   title: 'SEA-NN: Submodular Ensembled Attribution for Neural Networks'
@@ -68,6 +72,8 @@
   venue: BMC Plant Methods Journal, 2020. <span style='color:blue'>(Impact Factor - 4.5)</span>
   paper:
     url: https://arxiv.org/abs/1910.01789
+  project_page:
+    url: 2020_chandra_al
 
 - year: 2020
   title: 'Computer Vision with Deep Learning for Plant Phenotyping in Agriculture: A Survey'
@@ -84,6 +90,8 @@
     url: https://arxiv.org/abs/1907.12087
   code:
     url: https://github.com/nupurkmr9/S2M2_fewshot
+  project_page:
+    url: 2020_mangla_charting
 
 - year: 2020
   title: 'Multi-Space Approach to Zero-Shot Object Detection'
