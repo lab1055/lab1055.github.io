@@ -12,128 +12,128 @@
 #    display_text:  Project Page
 
 - year: 2019
-  title: "Submodular Batch Selection for Training Deep Neural Networks"
+  title: 'Submodular Batch Selection for Training Deep Neural Networks'
   authors: Joseph K J, Vamshi Teja R, Krishnakant Singh, V. Balasubramanian
-  venue: Proceedings of International Joint Conference on Artificial Intelligence (<b>IJCAI’19</b>), Aug 2019. 
-  # TODO: webpage, code, paper
+  venue: Proceedings of International Joint Conference on Artificial Intelligence (<b>IJCAI’19</b>), Aug 2019.
 
+  # TODO: webpage, code, paper
 - year: 2019
-  title: "Harnessing the Vulnerability of Latent Layers in Adversarially Trained Models"
+  title: 'Harnessing the Vulnerability of Latent Layers in Adversarially Trained Models'
   authors: Nupur Kumari, Abhishek Sinha, Mayank Singh, Harshitha Machiraju, Balaji Krishnamurthy, V. Balasubramanian
   venue: Proceedings of International Joint Conference on Artificial Intelligence (<b>IJCAI’19</b>), Aug 2019.
 
 - year: 2019
-  title: "Neural Network Attributions: A Causal Perspective"
+  title: 'Neural Network Attributions: A Causal Perspective'
   authors: Aditya Chattopadhyay, Piyushi Manupriya, Anirban Sarkar, V. Balasubramanian
   venue: Proceedings of International Conference on Machine Learning (<b>ICML’19</b>), Jun 2019.
   paper:
     url: https://arxiv.org/abs/1902.02302
-    display_text:  arXiv
+    display_text: arXiv
     key: page1
 
 - year: 2019
-  title: "Borrow from Anywhere: Pseudo Multi-modal Object Detection in Thermal Imagery"
+  title: 'Borrow from Anywhere: Pseudo Multi-modal Object Detection in Thermal Imagery'
   authors: Chaitanya Devaguptapu, Ninad Akolekar, Manuj Sharma, V. Balasubramanian
   venue: Workshop on Perception beyond the Visible Spectrum, IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR’19), Jun 2019.
 
 - year: 2019
-  title: "Zero-shot Task Transfer"
+  title: 'Zero-shot Task Transfer'
   authors: Arghya Pal, V. Balasubramanian
   venue: Proceedings of the IEEE/CVF International Conference on Computer Vision and Pattern Recognition (<b>CVPR’19</b>), Jun 2019. <span style='color:blue'>(Oral Paper)</span>
   paper:
     url: https://arxiv.org/abs/1903.01092
-    display_text:  arXiv
+    display_text: arXiv
     key: page1
 
 - year: 2019
-  title: "Harnessing the Vulnerability of Latent Layers in Adversarially Trained Models"
+  title: 'Harnessing the Vulnerability of Latent Layers in Adversarially Trained Models'
   authors: Mayank Singh, Abhishek Sinha, Nupur Kumari, Balaji Krishnamurthy, Harshitha Machiraju, V N Balasubramanian,
   venue: Workshop on Safe Machine Learning, International Conference on Learning Representations (ICLR’19), May 2019.
 
 - year: 2019
-  title: "Beyond Supervised Learning: A Computer Vision Perspective"
+  title: 'Beyond Supervised Learning: A Computer Vision Perspective'
   authors: Lovish Chum, Anbumani S., V. Balasubramanian, C. V. Jawahar
   venue: Journal of the Indian Institute of Science, pp 1-23, Feb 2019.
   paper:
     url: https://link.springer.com/article/10.1007/s41745-019-0099-3?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst&utm_source=ArticleAuthorOnlineFirst&utm_medium=email&utm_content=AA_en_06082018&ArticleAuthorOnlineFirst_20190221
-    display_text:  Springer Link
+    display_text: Springer Link
     key: page1
 
 - year: 2019
-  title: "C4Synth: Cross-Caption Cycle-Consistent Text-to-Image Synthesis"
+  title: 'C4Synth: Cross-Caption Cycle-Consistent Text-to-Image Synthesis'
   authors: Joseph K.J, Arghya Pal, S. Rajanala, V. Balasubramanian
   venue: Proceedings of IEEE Winter Conference on Applications of Computer Vision (<b>WACV’19</b>), Jan 2019.
   paper:
     url: https://arxiv.org/abs/1809.10238
-    display_text:  arXiv
+    display_text: arXiv
     key: page1
 
 - year: 2019
-  title: "Region-Based Active Learning for Efficient Labeling in Semantic Segmentation"
+  title: 'Region-Based Active Learning for Efficient Labeling in Semantic Segmentation'
   authors: Tejaswi K., Nagendar G., Guruprasad Hegde, V. Balasubramanian, C. V. Jawahar
   venue: Proceedings of IEEE Winter Conference on Applications of Computer Vision (<b>WACV’19</b>), Jan 2019.
 
 - year: 2018
-  title: "RefocusGAN: Scene Refocusing using a Single Image"
-  authors: Parikshit S., V. Balasubramanian, P.J. Narayanan, 
-  venue: Proceedings of the European Conference on Computer Vision (<b>ECCV’18<b>), Sep 2018.
+  title: 'RefocusGAN: Scene Refocusing using a Single Image'
+  authors: Parikshit S., V. Balasubramanian, P.J. Narayanan,
+  venue: Proceedings of the European Conference on Computer Vision (<b>ECCV’18</b>), Sep 2018.
 
 - year: 2018
-  title: "MASON: A Model AgnoStic ObjectNess Framework"
+  title: 'MASON: A Model AgnoStic ObjectNess Framework'
   authors: Joseph K.J., R. Patel, U. Gupta, A. Srivastava, V. Balasubramanian
   venue: Workshop On Autonomous Navigation in Unconstrained Environments, European Conference on Computer Vision (ECCV-W), Sep 2018
 
 - year: 2018
-  title: 
-  authors: 
+  title:
+  authors:
   venue:
 
 - year: 2018
-  title: 
-  authors: 
+  title:
+  authors:
   venue:
 
 - year: 2018
-  title: 
-  authors: 
+  title:
+  authors:
   venue:
 
 - year: 2018
-  title: 
-  authors: 
+  title:
+  authors:
   venue:
 
 - year: 2018
-  title: 
-  authors: 
+  title:
+  authors:
   venue:
 
 - year: 2018
-  title: 
-  authors: 
+  title:
+  authors:
   venue:
 
 - year: 2018
-  title: 
-  authors: 
+  title:
+  authors:
   venue:
 
 - year: 2018
-  title: 
-  authors: 
+  title:
+  authors:
   venue:
 
 - year: 2018
-  title: 
-  authors: 
+  title:
+  authors:
   venue:
 
 - year: 2018
-  title: 
-  authors: 
+  title:
+  authors:
   venue:
 
 - year: 2018
-  title: 
-  authors: 
+  title:
+  authors:
   venue:

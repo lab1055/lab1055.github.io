@@ -7,33 +7,27 @@ layout: default
     Publications
   </h1>
 
-  {% assign papers20 = site.data.publist | where: "year", 2020 %} {% if papers20[1] %}
-  <div class="year">2020</div>
-  {% for publi in papers20 %}
+  {% assign years = site.data.years %} {% for year in years %} {% assign
+  papers = site.data.publist | where: "year", year %} {% if papers[1] %}
+  <div class="year" style="font-size: 40px; color: black;">{{ year }}</div>
 
-  <h3>{{ publi.title }}</h3>
-  <em>{{ publi.authors }} </em><br />
-  <em>{{ publi.venue }} </em><br />
-  <a href="{{ publi.paper.url }}">{{ publi.paper.display_text }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display_text }}</a>
-  <a href="{{ publi.project_page.url }}">{{ publi.project_page.display_text }}</a>
-
-  {% endfor %} {% endif %} 
-
-  {% assign papers19 = site.data.publist | where: "year", 2019 %} {% if papers19 %}
-  <div style="font-size: 40px; color: black;">2019</div>
-  {% for publi in papers19 %}
+  {% for publi in papers %}
   <div class="group" style="margin-bottom: 20px; line-height: 24px;">
     <div style="font-size: 20px;">{{ publi.title }}</div>
     <div style="font-size: 14px;"><em>{{ publi.authors }} </em></div>
     <div style="font-size: 12px;">{{ publi.venue }}</div>
-    {% if publi.paper.url %}[<a href="{{ site.url }}{{ site.baseurl }}/projectpages/{{ publi.paper.key }}">Paper</a>] {% endif %}
-    {% if publi.code.url %}[<a href="{{ publi.code.url }}">Code</a>] {% endif %}
-    {% if publi.project_page.url %}[<a href="{{ publi.project_page.url }}">Copy bibtext</a>] {% endif %}
-    {% if publi.poster.url %}[<a href="{{ publi.poster.url }}">Poster</a>] {% endif %}
-    <!-- <a href="{{ publi.paper.url }}">{{ publi.paper.display_text }}</a>
-    <a href="{{ publi.code.url }}">{{ publi.code.display_text }}</a>
-    <a href="{{ publi.project_page.url }}">{{ publi.project_page.display_text }}</a> -->
+    {% if publi.paper.url %}<a
+      style="margin-right: 20px;"
+      href="{{ site.url }}{{ site.baseurl }}/projectpages/{{ publi.paper.key }}"
+      ><i class="fas fa-file-invoice"></i> Project Page</a
+    >
+    {% endif %} {% if publi.code.url %}<a style="margin-right: 20px;" href="{{ publi.code.url }}"
+      ><i class="fas fa-file-code"></i> Code</a
+    >
+    {% endif %} {% if publi.paper.url %}<a style="margin-right: 20px;" href="{{ publi.paper.url }}"
+      ><i class="fas fa-file-alt"></i> Paper</a
+    >
+    {% endif %}
   </div>
-  {% endfor %} {% endif %}
+  {% endfor %} {% endif %} {% endfor %}
 </div>
