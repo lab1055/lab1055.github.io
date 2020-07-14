@@ -1,0 +1,89 @@
+- name: Uttaran Sinha
+  photo: cs17mtech11003.jfif
+  info: "2018 - Present"
+  id: cs17mtech11003
+  email: cs17mtech11003@iith.ac.in
+  affiliations: IIT Hyderabad, IIT Hyderabad2, IIT Hyderabad3
+  webpage: https://uttaransinha.github.io/ 
+
+- name: Akshay L Chandra
+  id: akshaychandra
+  email: akshaychandra@iith.ac.in
+  info: "2019 - Present"
+  webpage: "https://akshaychandra.com/"
+  affiliations: IIT Hyderabad
+  photo: akshaychandra.png
+
+- name: Radhika Dua
+  id: radhikadua
+  email: radhikadua@iith.ac.in
+  info: "2019 - Present"
+  webpage: "https://radhikadua123.github.io/"
+  affiliations: IIT Hyderabad
+  photo: radhikadua.jpg
+
+- name: Kancheti Sai Srinivas
+  id: saisrinivas
+  email: saisrinivas@iith.ac.in
+  info: "2019 - Present"
+  email: 
+  # webpage: "https://ravisankaradepu.github.io/"
+  affiliations: KMIT, Hyderabad
+  photo: placeholder.jpg
+
+- name: Gaurav Bhatt
+  photo: gauravbhatt.jpg
+  info: "2019 - Present"
+  id: gauravbhatt
+  email: gauravbhatt@iith.ac.in
+  affiliations: IIT Hyderabad, IIT Hyderabad2, IIT Hyderabad3
+  # webpage: 
+
+- name: Shivam Chandhok
+  id: shivamchandhok
+  email: shivamchandhok@iith.ac.in
+  info: "2019 - Present"
+  # webpage: "https://ravisankaradepu.github.io/"
+  affiliations: IIT Hyderabad
+  photo: shivamchandhok.jpg
+
+- name: Rahul Vigneswaran K
+  id: rahulvigneswaran
+  email: rahulvigneswaran@iith.ac.in
+  info: "2019 - Present"
+  webpage: "https://rahulvigneswaran.github.io/"
+  affiliations: IIT Hyderabad
+  photo: rahulvigneswaran.png
+  google-scholar: https://scholar.google.co.in/citations?user=s7P6kbsAAAAJ&hl=en
+
+- name: Vaasudev Narayanan
+  id: 
+  email: vaasudev.narayanan@cse.iith.ac.in
+  info: "2020 - Present"
+  webpage: "https://vdevmcitylp.github.io/"
+  affiliations: 
+  photo: vaasudevnarayanan.jpg
+  google-scholar: https://scholar.google.co.in/citations?user=ncXa5P0AAAAJ&hl=en
+
+- name: Benin Godfrey L
+  id: 
+  email: benin.godfrey@cse.iith.ac.in
+  info: "2020 - Present"
+  webpage: 
+  affiliations: 
+  photo: placeholder.jpg
+
+- name: Neha Tarigopula
+  id: 
+  email: neha.tarigopula@cse.iith.ac.in
+  info: "2020 - Present"
+  webpage: 
+  affiliations: 
+  photo: neha_tarigopula.jpg
+
+# - name: Medha Chakravarthula
+#   id: 
+#   info: "2020 - Present"
+#   webpage: "https://medha.ch/"
+#   affiliations: 
+#   photo: placeholder.jpg

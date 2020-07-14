@@ -1,60 +1,673 @@
-#- title: "This is an example to illustrate the possible input fields that will be automatically parsed."
+# Template
+#- year: 2019
+#  title: "This is an example to illustrate the possible input fields that will be automatically parsed."
 #  authors: Joseph
 #  venue: "TheBestConf 2019"
 #  paper:
 #    url: https://arxiv.org/abs/1806.00174
-#    display_text:  arXiv
 #  code:
 #    url: https://github.com
-#    display_text:  Github Link
 #  project_page:
-#    url: https://josephkj.in
-#    display_text:  Project Page
+#    url: https://josephkj.in or provide file name of yml in _data/projectpage folder
 
-- title: "Submodular Batch Selection for Training Deep Neural Networks"
+# Please use this template
+# - year:
+#   title:
+#   authors:
+#   venue:
+#   paper:
+#     url:
+#   code:
+#     url:
+#   project_page:
+#     url:
+
+- year: 2020
+  title: 'Attributional Robustness Training using Input-Gradient Spatial Alignment'
+  authors: Mayank S., Nupur K., Puneet M., Abhishek S., V. Balasubramanian, Balaji K.
+  venue: Proceedings of European Conference on Computer Vision (<b>ECCV'20</b>*), Aug 2020.
+
+- year: 2020
+  title: 'On Saliency Maps and Adversarial Robustness'
+  authors: Puneet M., Vedant S., V. Balasubramanian
+  venue: Proceedings of European Conference of Machine Learning and Principles and Practice of Knowledge Discovery in Databases (<b>ECML-PKDD'20</b>), Ghent, Belgium, Sep 2020.
+  paper:
+    url: https://arxiv.org/abs/2006.07828
+  project_page:
+    url: 2020_puneet_saliency
+
+- year: 2020
+  title: 'Retrospective Loss: Looking Back to Improve Training of Deep Neural Networks'
+  authors: Surgan J, Ayush C, Mausoom S, Piyush G, Balaji K, V. Balasubramanian
+  venue: Proceedings of ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD'20</b>), San Diego, Aug 2020.
+  paper:
+    url: https://arxiv.org/abs/2006.13593
+  project_page:
+    url: 2020_jandial_retrospective
+
+- year: 2020
+  title: 'SEA-NN: Submodular Ensembled Attribution for Neural Networks'
+  authors: Piyushi M., Saketha Nath J, V. Balasubramanian
+  venue: Workshop on Human Interpretability in Machine Learning (WHI 2020) and  Workshop on Extending Explainable AI Beyond Deep Models and Classifiers (XXAI), International Conference on Machine Learning (ICML'20), Jul 2020.
+  paper:
+    url:
+
+- year: 2020
+  title: 'Zero-shot Domain Generalization'
+  authors: Udit Maniyar, Joseph K J, Aniket Deshmukh, Urun Dogan, V. Balasubramanian
+  venue: Workshop on Visual Learning with Limited Labels, IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR'20), Jun 2020.
+  paper:
+    url:
+
+- year: 2020
+  title: 'Towards Fine-grained Sampling for Active Learning in Object Detection'
+  authors: Sai Vikas Desai, V. Balasubramanian
+  venue: Workshop on Visual Learning with Limited Labels, IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR'20), Jun 2020.
+  paper:
+    url: https://openaccess.thecvf.com/content_CVPRW_2020/html/w54/Desai_Towards_Fine-Grained_Sampling_for_Active_Learning_in_Object_Detection_CVPRW_2020_paper.html
+
+- year: 2020
+  title: 'Active Learning with Point Supervision for Cost-Effective Panicle Detection in Cereal Crops'
+  authors: Akshay L Chandra, Sai Vikas D., S. Ninomiya, Wei Guo, V. Balasubramanian
+  venue: BMC Plant Methods Journal, 2020. <span style='color:blue'>(Impact Factor - 4.5)</span>
+  paper:
+    url: https://arxiv.org/abs/1910.01789
+  project_page:
+    url: 2020_chandra_al
+
+- year: 2020
+  title: 'Computer Vision with Deep Learning for Plant Phenotyping in Agriculture: A Survey'
+  authors: Akshay L Chandra, Sai Vikas D., V. Balasubramanian, Wei Guo
+  venue: Journal of Advanced Computing and Communications, Apr 2020.
+  paper:
+    url: https://arxiv.org/abs/2006.11391
+
+- year: 2020
+  title: 'Charting the Right Manifold: Manifold Mixup for Few-shot Learning'
+  authors: Puneet Mangla, Mayank Singh, Abhishek Sinha, Nupur Kumari, Balaji K, V. Balasubramanian
+  venue: Proceedings of IEEE Winter Conference on Applications of Computer Vision (<b>WACV'20</b>), Mar 2020.
+  paper:
+    url: https://arxiv.org/abs/1907.12087
+  code:
+    url: https://github.com/nupurkmr9/S2M2_fewshot
+  project_page:
+    url: 2020_mangla_charting
+
+- year: 2020
+  title: 'Multi-Space Approach to Zero-Shot Object Detection'
+  authors: Dikshant Gupta, Aditya A, Nehal M, V. Balasubramanian, C V Jawahar
+  venue: Proceedings of IEEE Winter Conference on Applications of Computer Vision (<b>WACV'20</b>), Mar 2020.
+  paper:
+    url: https://openaccess.thecvf.com/content_WACV_2020/papers/Gupta_A_Multi-Space_Approach_to_Zero-Shot_Object_Detection_WACV_2020_paper.pdf
+
+- year: 2020
+  title: 'A Little Fog for a Large Turn'
+  authors: Harshitha M., V. Balasubramanian
+  venue: Proceedings of IEEE Winter Conference on Applications of Computer Vision (<b>WACV'20</b>), Mar 2020.
+  paper:
+    url: https://arxiv.org/abs/2001.05873
+  code:
+    url: https://github.com/code-Assasin/A_Little_fog_for_a_Large_Turn/
+  project_page:
+    url: https://code-assasin.github.io/little_fog/
+
+- year: 2020
+  title: 'Munich to Dubai: How far is it for Semantic Segmentation?'
+  authors: Shyam Rai, Anubani Subramanian, V. Balasubramanian, C V Jawahar
+  venue: Proceedings of IEEE Winter Conference on Applications of Computer Vision (<b>WACV'20</b>), Mar 2020.
+  paper:
+    url: https://openaccess.thecvf.com/content_WACV_2020/papers/Nandan_Munich_to_Dubai_How_far_is_it_for_Semantic_Segmentation_WACV_2020_paper.pdf
+
+- year: 2020
+  title: 'Human Machine Collaboration for Face Recognition'
+  authors: Saurabh R, Rahul B, V. Balasubramanian, Nageswara Rao N, Sujit Gujar, C V Jawahar
+  venue: Proceedings of ACM IKDD Joint International Conference on Data Science & Management of Data (CoDS-COMAD'20), Jan 2020. <span style='color:blue'>(Best Paper Award Runner-up)</span>
+  paper:
+    url: https://www.semanticscholar.org/paper/Human-Machine-Collaboration-for-Face-Recognition-Ravindranath-Baburaj/9d44508731061bfbc10fe51e40dffe3a7f0c7a77
+
+- year: 2019
+  title: 'Automatic Estimation of Heading Date of Paddy Rice using Deep Learning'
+  authors: Sai Vikas D., V. Balasubramanian, T. Fukatsu, S. Ninomiya, Wei Guo
+  venue: BMC Plant Methods Journal <span style='color:blue'>(Impact Factor - 4.5)</span>
+  paper:
+    url: https://arxiv.org/abs/1708.05980
+
+- year: 2019
+  title: 'An Adaptive Supervision Framework for Active Learning in Object Detection'
+  authors: Sai Vikas D., Akshay L Chandra, Wei Guo, S. Ninomiya, V. Balasubramanian
+  venue: Proceedings of the British Machine Vision Conference (<b>BMVC'19</b>), Sep 2019.
+  paper:
+    url: https://arxiv.org/abs/1908.02454
+
+- year: 2019
+  title: 'Submodular Batch Selection for Training Deep Neural Networks'
   authors: Joseph K J, Vamshi Teja R, Krishnakant Singh, V. Balasubramanian
   venue: Proceedings of International Joint Conference on Artificial Intelligence (<b>IJCAI’19</b>), Aug 2019.
+  paper:
+    url: https://arxiv.org/abs/1906.08771
 
-- title: "Harnessing the Vulnerability of Latent Layers in Adversarially Trained Models"
+- year: 2019
+  title: 'Harnessing the Vulnerability of Latent Layers in Adversarially Trained Models'
   authors: Nupur Kumari, Abhishek Sinha, Mayank Singh, Harshitha Machiraju, Balaji Krishnamurthy, V. Balasubramanian
   venue: Proceedings of International Joint Conference on Artificial Intelligence (<b>IJCAI’19</b>), Aug 2019.
+  paper:
+    url: https://arxiv.org/abs/1905.05186
 
-- title: "Neural Network Attributions: A Causal Perspective"
+- year: 2019
+  title: 'Neural Network Attributions: A Causal Perspective'
   authors: Aditya Chattopadhyay, Piyushi Manupriya, Anirban Sarkar, V. Balasubramanian
   venue: Proceedings of International Conference on Machine Learning (<b>ICML’19</b>), Jun 2019.
   paper:
     url: https://arxiv.org/abs/1902.02302
-    display_text:  arXiv
+  project_page:
+    url: https://piyushi-0.github.io/ACE/
 
-- title: "Borrow from Anywhere: Pseudo Multi-modal Object Detection in Thermal Imagery"
+- year: 2019
+  title: 'Defending Deep Neural Networks against Structural Perturbations'
+  authors: Uttaran Sinha, Saurabh Joshi, V. Balasubramanian
+  venue: Workshop on Uncertainty and Robustness in Deep Learning, International Conference on Machine Learning (<b>ICML'19</b>), Jun 2019.
+  paper:
+    url: http://raiith.iith.ac.in/5683/
+
+- year: 2019
+  title: 'Borrow from Anywhere: Pseudo Multi-modal Object Detection in Thermal Imagery'
   authors: Chaitanya Devaguptapu, Ninad Akolekar, Manuj Sharma, V. Balasubramanian
   venue: Workshop on Perception beyond the Visible Spectrum, IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR’19), Jun 2019.
+  paper:
+    url: https://arxiv.org/abs/1905.08789
+  code:
+    url: https://github.com/tdchaitanya/MMTOD
 
-- title: "Zero-shot Task Transfer"
+- year: 2019
+  title: 'Zero-shot Task Transfer'
   authors: Arghya Pal, V. Balasubramanian
   venue: Proceedings of the IEEE/CVF International Conference on Computer Vision and Pattern Recognition (<b>CVPR’19</b>), Jun 2019. <span style='color:blue'>(Oral Paper)</span>
   paper:
     url: https://arxiv.org/abs/1903.01092
-    display_text:  arXiv
 
-- title: "Harnessing the Vulnerability of Latent Layers in Adversarially Trained Models"
-  authors: Mayank Singh, Abhishek Sinha, Nupur Kumari, Balaji Krishnamurthy, Harshitha Machiraju, V N Balasubramanian,
-  venue: Workshop on Safe Machine Learning, International Conference on Learning Representations (ICLR’19), May 2019.
-
-- title: "Beyond Supervised Learning: A Computer Vision Perspective"
+- year: 2019
+  title: 'Beyond Supervised Learning: A Computer Vision Perspective'
   authors: Lovish Chum, Anbumani S., V. Balasubramanian, C. V. Jawahar
   venue: Journal of the Indian Institute of Science, pp 1-23, Feb 2019.
   paper:
     url: https://link.springer.com/article/10.1007/s41745-019-0099-3?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst&utm_source=ArticleAuthorOnlineFirst&utm_medium=email&utm_content=AA_en_06082018&ArticleAuthorOnlineFirst_20190221
-    display_text:  Springer Link
 
-- title: "C4Synth: Cross-Caption Cycle-Consistent Text-to-Image Synthesis"
-  authors: Joseph K.J, Arghya Pal, S. Rajanala, V. Balasubramanian,
+- year: 2019
+  title: 'C4Synth: Cross-Caption Cycle-Consistent Text-to-Image Synthesis'
+  authors: Joseph K.J, Arghya Pal, S. Rajanala, V. Balasubramanian
   venue: Proceedings of IEEE Winter Conference on Applications of Computer Vision (<b>WACV’19</b>), Jan 2019.
   paper:
     url: https://arxiv.org/abs/1809.10238
-    display_text:  arXiv
 
-- title: "Region-Based Active Learning for Efficient Labeling in Semantic Segmentation"
+- year: 2019
+  title: 'Region-Based Active Learning for Efficient Labeling in Semantic Segmentation'
   authors: Tejaswi K., Nagendar G., Guruprasad Hegde, V. Balasubramanian, C. V. Jawahar
   venue: Proceedings of IEEE Winter Conference on Applications of Computer Vision (<b>WACV’19</b>), Jan 2019.
+  paper:
+    url: https://ieeexplore.ieee.org/document/8659293
+
+- year: 2018
+  title: 'RefocusGAN: Scene Refocusing using a Single Image'
+  authors: Parikshit S., V. Balasubramanian, P.J. Narayanan,
+  venue: Proceedings of the European Conference on Computer Vision (<b>ECCV’18</b>), Sep 2018.
+  paper:
+    url: http://openaccess.thecvf.com/content_ECCV_2018/papers/Parikshit_Sakurikar_Single_Image_Scene_ECCV_2018_paper.pdf
+
+- year: 2018
+  title: 'MASON: A Model AgnoStic ObjectNess Framework'
+  authors: Joseph K.J., R. Patel, U. Gupta, A. Srivastava, V. Balasubramanian
+  venue: Workshop On Autonomous Navigation in Unconstrained Environments, European Conference on Computer Vision (ECCV-W), Sep 2018
+  paper:
+    url: https://arxiv.org/abs/1809.07499
+  code:
+    url: https://github.com/JosephKJ/MASON
+
+- year: 2018
+  title: 'VisDrone-DET2018: The Vision Meets Drone Object Detection in Image Challenge Results'
+  authors: Zhu Pengfei, Wen Longyin, Du Dawei, Nehal M., Naveen Kumar, Joseph K.J., V. Balasubramanian, et al.
+  venue: European Conference on Computer Vision, Workshop Proceedings (ECCV-W), Sep 2018
+  paper:
+    url: https://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Zhu_VisDrone-DET2018_The_Vision_Meets_Drone_Object_Detection_in_Image_Challenge_ECCVW_2018_paper.pdf
+
+- year: 2018
+  title: 'Neuro-IoU: Learning a Surrogate Loss for Semantic Segmentation'
+  authors: G. Nagendar, V. Balasubramanian, C. V. Jawahar
+  venue: Proceedings of the British Machine Vision Conference (<b>BMVC'18</b>), Sep 2018.
+  paper:
+    url: http://bmvc2018.org/contents/papers/1055.pdf
+
+- year: 2018
+  title: 'Improving Multiclass Classification by Deep Networks using DAGSVM and Triplet Loss'
+  authors: N. Agarwal, V. Balasubramanian, C.V. Jawahar
+  venue: Pattern Recognition Letters, 2018
+  paper:
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0167865518302745
+
+- year: 2018
+  title: 'Fast Dawid-Skene: A Fast Vote Aggregation Scheme for Sentiment Classification'
+  authors: Vaibhav Sinha, Sukrut Rao, V. Balasubramanian
+  venue: Workshop on Issues of Sentiment Discovery and Opinion Mining at ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), London, UK, Aug 2018
+  paper:
+    url: https://arxiv.org/abs/1803.02781
+  code:
+    url: https://github.com/GoodDeeds/Fast-Dawid-Skene
+
+- year: 2018
+  title: 'DAiSEE: Towards User Engagement Recognition in the Wild'
+  authors: A. Gupta, A. DCunha, K. Awasthi, V. Balasubramanian
+  venue: Vision Meets Cognition Workshop at IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR), Salt Lake City, USA, Jun 2018.
+  paper:
+    url: https://arxiv.org/abs/1609.01885
+  project_page:
+    url: https://iith.ac.in/~daisee-dataset/
+
+- year: 2018
+  title: 'On the Analysis of Trajectories of Gradient Descent in the Optimization of Deep Neural Networks'
+  authors: A. Ravi Sankar, Vishwak S., V. Balasubramanian
+  venue: Workshop on Theory of Deep Learning and Workshop on Non-Convex Optimization at International Conference on Machine Learning (ICML), Stockholm, Sweden, Jul 2018.
+  paper:
+    url: https://arxiv.org/abs/1807.08140
+
+- year: 2018
+  title: 'Adversarial Data Programming: Using GANs to Relax the Bottleneck of Curated Labeled Data'
+  authors: Arghya Pal, V. Balasubramanian
+  venue: Proceedings of the IEEE/CVF International Conference on Computer Vision and Pattern Recognition (<b>CVPR'18</b>), Jun 2018.
+  paper:
+    url: https://arxiv.org/abs/1803.05137
+
+- year: 2018
+  title: 'Grad-CAM++: Generalized Gradient-based Visual Explanations for Deep Convolutional Networks'
+  authors: Anirban Sarkar, Aditya Chattopadhyay, Prantik Howlader, V. Balasubramanian
+  venue: Proceedings of IEEE Winter Conference on Applications of Computer Vision (<b>WACV'18</b>), Mar 2018.
+  paper:
+    url: https://arxiv.org/abs/1710.11063
+  code:
+    url: https://github.com/adityac94/Grad_CAM_plus_plus
+
+- year: 2018
+  title: 'STWalk: Learning Trajectory Representations in Temporal Graphs'
+  authors: Supriya P., Himangi Mittal, Manish Gupta, V. Balasubramanian
+  venue: Proceedings of ACM IKDD Joint International Conference on Data Science & Management of Data (CoDS-COMAD'18), Jan 2018.
+  paper:
+    url: https://arxiv.org/abs/1711.04150
+
+- year: 2018
+  title: 'Are Saddles Good Enough for Deep Learning'
+  authors: A. Ravi Sankar, V. Balasubramanian
+  venue: Proceedings of ACM IKDD Joint International Conference on Data Science & Management of Data (CoDS-COMAD'18), Jan 2018.
+  paper:
+    url: https://arxiv.org/abs/1706.02052
+
+- year: 2018
+  title: 'ADINE: An Adaptive Momentum Method for Stochastic Gradient Descent'
+  authors: Vishwak S., A. Ravi Sankar, V. Balasubramanian
+  venue: Proceedings of ACM IKDD Joint International Conference on Data Science & Management of Data (CoDS-COMAD'18), Jan 2018.
+  paper:
+    url: https://arxiv.org/abs/1712.07424
+
+- year: 2017
+  title: 'Sequence to Sequence learning for Pose Correction in Videos'
+  authors: Swetha S., V. Balasubramanian, C. V. Jawahar
+  venue: Proceedings of 4th Asian Conference on Pattern Recognition (ACPR'17), Nov 2017.
+
+- year: 2017
+  title: 'Attentive Semantic Video Generation using Captions'
+  authors: G. Mittal, T. Marwah, V. Balasubramanian
+  venue: Proceedings of IEEE International Conference on Computer Vision (<b>ICCV'17</b>), Oct 2017.
+  paper:
+    url: https://arxiv.org/abs/1708.05980
+  code:
+    url: https://github.com/Singularity42/cap2vid
+
+- year: 2017
+  title: 'Sync-DRAW: Automatic Video Generation using Deep Recurrent Attentive Architectures'
+  authors: T. Marwah, G. Mittal, V. Balasubramanian
+  venue: Proceedings of ACM International Conference on Multimedia (<b>ACM MM'17</b>), Oct 2017. <span style='color:blue'>(Oral Paper, Acceptance Rate 7.5%)</span>
+  paper:
+    url: https://arxiv.org/abs/1611.10314
+  code:
+    url: https://github.com/Singularity42/Sync-DRAW
+
+- year: 2017
+  title: 'Have I Reached the Intersection?'
+  authors: D. Bhatt, D. Sodhi, A. Pal, V. Balasubramanian, M. Krishna
+  venue: Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS'17</b>), Sep 2017.
+
+- year: 2016
+  title: 'Community-based Outlier Detection for Edge-Attributed Graphs'
+  authors: S. Pandhre, M. Gupta, V. Balasubramanian
+  venue: arXiv:1612.09435, Dec 2016.
+  paper:
+    url: https://arxiv.org/abs/1612.09435
+
+- year: 2016
+  title: 'On the Relevance of Very Deep Networks for Diabetic Retinopathy Diagnostics'
+  authors: B Akilesh, T. Marwah, V. Balasubramanian, K. Rajamani
+  venue: IBM Collaborative Academia Research Exchange (I-CARE) Conference, Bangalore, Oct 2016.
+
+- year: 2016
+  title: 'Deep Model Compression: Distilling Knowledge from Noisy Teachers'
+  authors: B. B. Sau, V. Balasubramanian
+  venue: arXiv:1610.09650, Oct 2016.
+  paper:
+    url: https://arxiv.org/abs/1610.09650
+
+- year: 2016
+  title: 'Dissimilarity-based Contrastive Divergence for Anomaly Detection'
+  authors: S. Manocha, A Ravi Sankar, V. Balasubramanian
+  venue: 2nd Indian Workshop on Machine Learning, Kanpur, Jul 2016.
+
+- year: 2016
+  title: 'A Crowdsourced Approach to Student Engagement Recognition in e-Learning Environments'
+  authors: A Kamath, A Biswas, V. Balasubramanian
+  venue: IEEE Winter Conference on Applications of Computer Vision (<b>WACV'16</b>), Lake Placid, NY, Mar 2016.
+
+- year: 2016
+  title: 'Fine-Tuning Human Pose Estimations in Videos'
+  authors: D Singh, V. Balasubramanian, C. V. Jawahar
+  venue: IEEE Winter Conference on Applications of Computer Vision (<b>WACV'16</b>), Lake Placid, NY, Mar 2016.
+
+- year: 2016
+  title: 'Online Bengali Handwritten Numerals Recognition Using Deep Autoencoders'
+  authors: A. Pal, B.K. Khonglah, S. Mandal, H. Choudhury, S.R.M. Prasanna, H.L. Rufiner, V. Balasubramanian
+  venue: National Conference on Communications (NCC), Mar 2016.
+
+- year: 2015
+  title: 'Similarity-based Contrastive Divergence Methods for Energy-based Deep Learning Models'
+  authors: A Ravi Sankar, V. Balasubramanian
+  venue: 7th Asian Conference on Machine Learning (<b>ACML</b>), Hong Kong, 2015.
+
+- year: 2015
+  title: 'Active Batch Selection via Convex Relaxations with Guaranteed Solution Bounds'
+  authors: S. Chakraborty, V. Balasubramanian, Q. Sun, S. Panchanathan, J. Ye
+  venue: IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>IEEE T-PAMI</b>), Oct 2015, 37(10), pp 1945-58.
+
+- year: 2015
+  title: 'BatchRank: A Novel Batch Mode Active Learning Framework for Hierarchical Classification'
+  authors: S. Chakraborty, V. Balasubramanian, A. Ravi Sankar, S. Panchanathan, J. Ye
+  venue: Proceedings of the 21st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (<b>KDD’15</b>), 2015, pp 99-108.
+
+- year: 2015
+  title: 'Adaptive Batch Mode Active Learning'
+  authors: S. Chakraborty, V. Balasubramanian, S. Panchanathan
+  venue: IEEE Transactions on Neural Networks and Learning Systems (<b>IEEE TNNLS</b>), Aug 2015, vol.26, no.8, pp.1747-1760.
+
+- year: 2015
+  title: 'Conformal Predictions for Information Fusion'
+  authors: V. Balasubramanian, S. Chakraborty, S. Panchanathan
+  venue: Annals of Mathematics and Artificial Intelligence (<b>AMAI</b>), Jun 2015, Vol 74, Issue 1, pp 45-65.
+
+- year: 2015
+  title: 'Scaling up the training of Deep CNNs for Human Action Recognition'
+  authors: Sai Rajeshwar, A Ravi Sankar, V. Balasubramanian, C.D. Sudheer
+  venue: 4th International Workshop on Parallel and Distributed Computing for Large Scale Machine Learning and Big Data Analytics (in conjunction with IPDPS 2015), Hyderabad, India, 2015, pp 1172-1177.
+
+- year: 2015
+  title: 'Model Selection Using Efficiency of Conformal Predictors'
+  authors: R. Jaiswal, V. Balasubramanian
+  venue: 3rd International Symposium on Learning and Data Sciences (SLDS 2015), Royal Holloway University of London, Apr 2015, pp 291-300.
+
+- year: 2014
+  title: 'Parallel Learning of Deep Convolutional Neural networks and its Application to Action Recognition'
+  authors: Sai Rajeshwar, A Ravi Sankar, V. Balasubramanian, C.D. Sudheer
+  venue: IEEE International Conference on High Performance Computing - Student Research Symposium, Goa, India, 2014. <span style='color:blue'>(NVIDIA Award for Best Paper using GPU Technologies)</span>
+
+- year: 2013
+  title: 'Generalized batch mode active learning for face-based biometric recognition'
+  authors: S. Chakraborty, V. Balasubramanian, S. Panchanathan
+  venue: Pattern Recognition, 46:2, 2013.
+
+- year: 2013
+  title: 'Active Matrix Completion'
+  authors: S. Chakraborty, J. Zhou, V. Balasubramanian, S. Panchanathan, I. Davidson, J. Ye
+  venue: Proceedings of the IEEE International Conference on Data Mining (<b>ICDM’13</b>), Dallas, USA, pp 81-90, Dec 2013.
+
+- year: 2013
+  title: 'Probabilistic Topic Models for Human Emotion Analysis'
+  authors: P. Lade, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of the Workshop on Topic Models, Computation, Application and Evaluation at Neural Information Processing Systems (NIPS), Lake Tahoe, USA, Dec 2013.
+
+- year: 2013
+  title: 'PyCP: An Open-Source Conformal Predictions Toolkit'
+  authors: V. Balasubramanian, A. Baker, M. Yanez, S. Chakraborty, S. Panchanathan
+  venue: Proceedings of Artificial Intelligence Applications and Innovations (Workshop on Conformal Prediction and Its Applications), vol 412, pp 361-370, Paphos, Cyprus, Oct 2013.
+
+- year: 2013
+  title: 'Detection of Changes in Human Affect Dimensions using an Adaptive Temporal Topic Model'
+  authors: P. Lade, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of IEEE International Conference on Multimedia and Expo (ICME), pp 1-6, San Jose, USA, Jul 2013.
+
+- year: 2013
+  title: 'Multiresolution Match Kernels for Gesture Video Classification'
+  authors: H. Venkateswara, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of IEEE International Conference on Multimedia and Expo (ICME), pp 1-4, San Jose, USA, Jul 2013.
+
+- year: 2013
+  title: 'Latent Facial Topics for Affect Analysis'
+  authors: P. Lade, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of IEEE International Conference on Multimedia and Expo (ICME) Workshop on Affective Analysis in Multimedia, pp 1-6, San Jose, USA, Jul 2013.
+
+- year: 2012
+  title: 'Batch Mode Active Learning for Multimedia Pattern Recognition'
+  authors: S. Chakraborty, V. Balasubramanian, S. Panchanathan
+  venue: PhD Workshop on Multimedia Computing Research, in Proceedings of IEEE International Symposium on Multimedia (ISM'12), pp 489-490, Irvine, USA, Dec 2012.
+
+- year: 2012
+  title: 'Person-Centered Accessible Technologies: Improved Usability and Adaptation through Inspirations from Disability Research'
+  authors: S. Panchanathan, T. McDaniel, V. Balasubramanian
+  venue: Proceedings of the International Workshop on User Experience in e-Learning and Augmented Technologies in Education Proceedings at ACM Multimedia (<b>ACM MM’12</b>), pp 1-6, Nara, Japan, Nov 2012.
+
+- year: 2012
+  title: 'Efficient Atypicality Detection in Chest Radiographs'
+  authors: M. Alzubaidi, V. Balasubramanian, A. Patel, S. Panchanathan, J. A. Black
+  venue: Proceedings of 11th International Conference on Information Science, Signal Processing and their Applications (ISSPA), pp 193-198, Montreal, Canada, Jul 2012.
+
+- year: 2012
+  title: 'A Novel Semi-Transductive Learning Framework for Atypicality Detection in Chest Radiographs'
+  authors: M. Alzubaidi, V. Balasubramanian, A. Patel, S. Panchanathan, J. A. Black
+  venue: Proceedings of SPIE Conference on Medical Imaging, Vol 8315 (Computer-Aided Diagnosis), 83153A, San Diego, USA, Feb 2012.
+
+- year: 2011
+  title: 'An Integrated Approach to Visual Attention Modeling for Saliency Detection in Videos'
+  authors: S. Nataraju, V. Balasubramanian, S. Panchanathan
+  venue: 'Machine Learning for Vision-based Motion Analysis: Advances in Pattern Recognition, Part 3, pp 181-214, Liang Wang, Guoying Zhao, Li Cheng, Matti Pietikainen (Eds.), Springer-Verlag London, 2011.'
+
+- year: 2011
+  title: 'Active Batch Selection for Fuzzy Classification in Facial Expression Recognition'
+  authors: S. Chakraborty, H. Venkateswara, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of 10th International Conference on Machine Learning and Applications (ICMLA’11), vol.1, pp.241-246, Hawaii, USA, Dec 2011.
+
+- year: 2011
+  title: 'Optimization-based Domain Adaptation towards Person-Adaptive Classification Models'
+  authors: R. Chattopadhyay, S. Chakraborty, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of 10th International Conference on Machine Learning and Applications (ICMLA’11), vol.1, pp.476-483, Hawaii, USA, Dec 2011.
+
+- year: 2011
+  title: 'Optimal Batch Selection for Active Learning in Multi-label Classification'
+  authors: S. Chakraborty, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of the 19th ACM International Conference on Multimedia (<b>ACM MM'11</b>), pp 1413-1416, Scottsdale, USA, Nov 2011.
+
+- year: 2011
+  title: 'Dynamic Batch Mode Active Learning via L1 Regularization'
+  authors: S. Chakraborty, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of the National Conference on Artificial Intelligence (<b>AAAI’11</b>), Vol 2, pp 1764-1765, San Francisco, USA, Aug 2011.
+
+- year: 2011
+  title: 'Dynamic Batch Mode Active Learning'
+  authors: S. Chakraborty, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition (<b>CVPR’11</b>), pp 2649-2656, Colorado Springs, USA, Jun 2011.
+
+- year: 2011
+  title: 'Human-Centered Multimedia Computing: Inspirations through Enriching the Lives of Individuals with Sensory, Motor, Perceptual and Cognitive Disabilities'
+  authors: S. Panchanathan, S. Krishna, V. Balasubramanian
+  venue: Proceedings of the 7th International Conference on Trends in Industrial Measurements and Automation (TIMA 2011), pp 1-6, Chennai, India, Jan 2011.
+
+- year: 2010
+  title: 'Multiple Kernel Learning for Efficient Conformal Predictions'
+  authors: V. Balasubramanian, S. Chakraborty, S. Panchanathan
+  venue: Proceedings of the Workshop on New Directions in Multiple Kernel Learning at Neural Information Processing Systems (NIPS), Whistler, Canada, Dec 2010.
+
+- year: 2010
+  title: 'Enhancing Social Interactions of Individuals with Visual Impairments: A Case Study for Assistive Machine Learning'
+  authors: V. Balasubramanian, S. Chakraborty, S. Krishna, S. Panchanathan
+  venue: Proceedings of the Workshop on Machine Learning for Assistive Technologies at Neural Information Processing Systems (NIPS), Whistler, Canada, Dec 2010.
+
+- year: 2010
+  title: 'An Optimization Based Framework for Dynamic Batch Mode Active Learning'
+  authors: S. Chakraborty, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of the 3rd International Workshop on Optimization for Machine Learning at Neural Information Processing Systems (NIPS), Whistler, Canada, Dec 2010.
+
+- year: 2010
+  title: 'Kernel Learning for Efficiency Maximization in the Conformal Predictions Framework'
+  authors: V. Balasubramanian, J. Ye, S. Chakraborty, S. Panchanathan
+  venue: Proceedings of the 9th International Conference on Machine Learning and Applications (ICMLA'10), IEEE Computer Society, pp 235-242, Washington DC, USA, Dec 2010.
+
+- year: 2010
+  title: 'Dynamic Batch Size Selection for Batch Mode Active Learning in Biometrics'
+  authors: S. Chakraborty, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of the 9th International Conference on Machine Learning and Applications (ICMLA'10), IEEE Computer Society, pp 15-22, Washington DC, USA, Dec 2010.
+
+- year: 2010
+  title: 'Enriching Social Situational Awareness in Remote Interactions: Insights and Inspirations from Disability Focused Research'
+  authors: S. Krishna, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of the ACM International Conference on Multimedia (<b>ACM MM’10</b>), pp 1275-1284, Firenze, Italy, Oct 2010.
+
+- year: 2010
+  title: 'On the results of the first mobile biometry (MOBIO) face and speaker verification evaluation'
+  authors: S. Marcel, C. McCool, S. Chakraborty, V. Balasubramanian, S. Panchanathan, J.Nolazco, L. Garcia, R. Aceves, et al.
+  venue: Proceedings of the 20th International Conference on Pattern Recognition (<b>ICPR’10</b>), pp 210-225, Istanbul, Turkey, Aug 2010.
+
+- year: 2010
+  title: 'Learning from Summaries of Videos: Applying Batch Mode Active Learning to Face-based Biometrics'
+  authors: S. Chakraborty, V. Balasubramanian, S. Panchanathan
+  venue: Workshop on Biometrics, in Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition Workshops (CVPR’10), pp 130-137, San Francisco, USA, Jun 2010.
+
+- year: 2010
+  title: 'Batch Mode Active Learning for Biometric Recognition'
+  authors: S. Chakraborty, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of SPIE International Conference on Biometric Technology for Human Identification, SPIE Defense, Security & Sensing, Vol 7667, B. V. K. Vijaya Kumar, Salil Prabhakar, Arun A. Ross (Eds.), 76670W, Orlando, USA, Apr 2010.
+
+- year: 2010
+  title: 'What Catches a Radiologist’s Eye? A Comprehensive Comparison of Feature Types for Saliency Prediction'
+  authors: M. Alzubadi, V. Balasubramanian, J. A. Black, A. Patel, S. Panchanathan
+  venue: Proceedings of SPIE Conference on Medical Imaging, Vol 7624 (Computer-Aided Diagnosis), Nico Karssemeijer, Ronald M. Summers (Eds.), 76240W, San Diego, USA, Feb 2010.
+
+- year: 2009
+  title: 'Person-Specific Characteristic Feature Selection for Face Recognition'
+  authors: S. Krishna, V. Balasubramanian, J. Black, S. Panchanathan
+  venue: 'Biometrics: Theory, Methods, and Applications, pp 113-141, N. V. Boulgouris, K. N. Plataniotis and E. Micheli-Tzanakou (Eds.), Wiley Publications, 2009.'
+
+- year: 2009
+  title: 'Human-Centered Machine Learning in a Social Interaction Assistant for Individuals with Visual Impairments'
+  authors: V. Balasubramanian, S. Chakraborty, S. Krishna, S. Panchanathan
+  venue: Proceedings of the Symposium on Assistive Machine Learning for People with Disabilities at Neural Information Processing Systems (NIPS’09), Vancouver, Canada, Dec 2009.
+
+- year: 2009
+  title: 'Online Active Learning using Conformal Predictions'
+  authors: V. Balasubramanian, S. Chakraborty, S. Panchanathan
+  venue: Proceedings of the Workshop on Analysis and Design of Algorithms for Interactive Machine Learning at Neural Information Processing Systems (NIPS’09), Vancouver, Canada, Dec 2009.
+
+- year: 2009
+  title: 'Learning Attention Based Saliency in Videos from Human Eye Movements'
+  authors: S. Nataraju, V. Balasubramanian, S. Panchanathan
+  venue: Proceedings of the International Workshop on Motion and Video Computing (WMVC), IEEE Computer Society, pp 134-139, Snowbird, USA, Dec 2009.
+
+- year: 2009
+  title: 'Generalized Query by Transduction for Online Active Learning'
+  authors: V. Balasubramanian, S. Chakraborty, S. Panchanathan
+  venue: Workshop on Online Learning for Computer Vision, in Proceedings of the IEEE Computer Society International Conference on Computer Vision Workshops (ICCV’09), pp 1378-1385, Kyoto, Japan, Oct 2009.
+
+- year: 2009
+  title: 'Support Vector Machine Based Conformal Predictors for Risk of Complications Following a Coronary Drug Eluting Stent Procedure'
+  authors: V. Balasubramanian, R. Gouripeddi, J. Vermillion, A. Bhaskaran, R. Siegel, S. Panchanathan
+  venue: Proceedings of IEEE Computers in Cardiology, pp 5-8, Park City, USA, Sep 2009.
+
+- year: 2009
+  title: 'Ranking Predictors of Complications following a Drug Eluting Stent Procedure using Support Vector Machines'
+  authors: R. Gouripeddi, V. Balasubramanian, J. Harris, A. Bhaskaran, R. Siegel, S. Panchanathan
+  venue: Proceedings of IEEE Computers in Cardiology, pp 345-348, Park City, USA, Sep 2009.
+
+- year: 2009
+  title: 'Predicting Risk of Complications Following a Drug Eluting Stent Procedure: A SVM Approach for Imbalanced Data'
+  authors: R. Gouripeddi, V. Balasubramanian, J. Harris, A. Bhaskaran, R. Siegel, S. Panchanathan
+  venue: Proceedings of 22nd IEEE International Symposium on Computer-Based Medical Systems, pp 1-7, Albuquerque, USA, Aug 2009.
+
+- year: 2008
+  title: 'Biased Manifold Embedding: Supervised Isomap for Person-Independent Head Pose Estimation'
+  authors: V. Balasubramanian, S. Panchanathan
+  venue: 'Computer Vision and Computer Graphics: Theory and Applications, Vol 21, pp 177-188, Jose Braz, Alpesh Ranchordas, Helder J. Araujo, Joao Madeiras Pereira (Eds.), Springer Berlin Heidelberg, 2008.'
+
+- year: 2008
+  title: 'Person-independent head pose estimation using biased manifold embedding'
+  authors: V. Balasubramanian, S. Krishna, S. Panchanathan
+  venue: EURASIP Journal on Advanced Signal Processing, pp 63:1-63:15, Hindawi Publishing Corporation, 2008.
+
+- year: 2008
+  title: 'Enriched Human-Centered Multimedia Computing through Inspirations from Disabilities and Deficit-Centered Computing Solutions'
+  authors: S. Panchanathan, N. C. Krishnan, S. Krishna, T. McDaniel, V. N. Balasubramanian
+  venue: Proceedings of the 3rd ACM International Workshop on Human-Centered Computing, (ACM MM’08), pp 35-42, Vancouver, Canada, Oct 2008.
+
+- year: 2008
+  title: 'Using a haptic belt to convey non-verbal communication cues during social interactions to individuals who are blind'
+  authors: T. McDaniel, S. Krishna, V. Balasubramanian, D. Colbry, S. Panchanathan
+  venue: Proceedings of IEEE International Workshop on Haptic Audio visual Environments and Games (HAVE), pp.13-18, Ottawa, Canada, Oct 2008.
+
+- year: 2008
+  title: 'A Systematic Requirements Analysis and Development of an Assistive Device to Enhance the Social Interaction of People Who are Blind or Visually Impaired'
+  authors: S. Krishna, D. Colbry, J. Black, V. N. Balasubramanian, S. Panchanathan
+  venue: Proceedings of the European Conference on Computer Vision Workshop on Computer Vision Applications for the Visually Impaired (ECCV’08), Marseille, France, Oct 2008.
+
+- year: 2008
+  title: 'Multiple Cue Integration in Transductive Confidence Machines for Head Pose Classification'
+  authors: V. Balasubramanian, S. Chakraborty, S. Panchanathan
+  venue: Workshop on Online Learning for Classification, in Proceedings of the IEEE Computer Vision and Pattern Recognition Workshops (CVPR’08), pp 1-8, Anchorage, USA, Jun 2008.
+
+- year: 2008
+  title: 'A Wearable Wireless RFID System for Accessible Shopping Environments'
+  authors: S. Krishna, S. Panchanathan, T. Hedgpeth, C. Juillard, V. Balasubramanian, N. C. Krishnan
+  venue: Proceedings of the ICST 3rd International Conference on Body Area Networks (BodyNets’08), pp 29:1-29:8, Tempe, USA, Mar 2008.
+
+- year: 2008
+  title: 'Human-Centered Multimedia Computing: A New Paradigm for the Design of Assistive and Rehabilitative Environments'
+  authors: S. Panchanathan, S. Krishna, J.A. Black, V. Balasubramanian
+  venue: Proceedings of the International Conference on Signal Processing, Communications and Networking (ICSCN'08), pp 1-7, Chennai, India, Jan 2008.
+
+- year: 2007
+  title: 'Biased Manifold Embedding: A framework for Person-Independent Head Pose Estimation'
+  authors: V. N. Balasubramanian, J. Ye, S. Panchanathan
+  venue: Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR’07</b>), pp 1-7, Minneapolis, USA, Jun 2007.
+
+- year: 2007
+  title: 'Biased Manifold Embedding for Person-Independent Head Pose Estimation'
+  authors: V. N. Balasubramanian, S. Panchanathan
+  venue: Proceedings of the 2nd International Conference on Computer Vision Theory and Applications, pp 76-84, Alpesh Ranchordas, Helder Araujo, Jordi Vitria  (Eds.), Barcelona, Spain, Mar 2007.
+
+- year: 2006 and Prior
+  title: 'Measuring movement expertise in surgical tasks'
+  authors: K. Kahol, N. C. Krishnan, V. N. Balasubramanian, S. Panchanathan, M. Smith, J. Ferrara
+  venue: Proceedings of the 14th Annual ACM Conference on Multimedia (<b>ACM MM’06</b>), pp 719-722, Santa Barbara, USA, Oct 2006.
+
+- year: 2006 and Prior
+  title: 'Mosaicing of MPEG compressed video: a unified approach'
+  authors: N.B. Vineeth, B. Krishnamoorthy, G.V. Prabhakara Rao
+  venue: Proceedings of the SPIE International Conference on Optical Science and Engineering, Vol 5558 (Applications of Digital Image Processing), 847, Denver, USA, Aug 2004.
+
+- year: Other
+  title: 'Batch Mode Active Learning for Multimedia Pattern Recognition'
+  authors: S. Chakraborty, V. Balasubramanian, S. Panchanathan
+  venue: 7th Annual Machine Learning Symposium, New York Academy of Sciences, New York, USA, Oct 2012.
+
+- year: Other
+  title: 'Confidence Estimation in Pattern Classification: An Analysis with Head Pose Estimation'
+  authors: V. Balasubramanian, S. Chakraborty, S. Panchanathan
+  venue: Technical Report TR-09-12, School of Computing and Informatics, Arizona State University, Jul 2009.
+
+- year: Other
+  title: 'Haptic Belt for Delivering Nonverbal Cues to People who are Blind/Visually Impaired'
+  authors: S. Krishna, T. McDaniel, V. Balasubramanian, D. Colbry, S. Panchanathan
+  venue: 24th Annual International Technology and Persons with Disabilities Conference (CSUN’09), Los Angeles, USA, Mar 2009.
+
+- year: Other
+  title: 'The iCARE Ambient Interactive Shopping Environment'
+  authors: S. Krishna, V. Balasubramanian, N. C. Krishnan, T. Hedgpeth
+  venue: CSUN's 23rd Annual International Technology and Persons with Disabilities Conference (CSUN’08), Los Angeles, USA, Mar 2008.

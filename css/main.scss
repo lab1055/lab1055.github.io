@@ -11,6 +11,13 @@ img { margin-bottom: 24px;
 
 body {
 	padding-top: 70px;
+	// font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+	// Font trials
+	font-family: 'Work Sans', sans-serif;
+	// font-family: 'Markazi Text', serif;
+	// font-family: 'Maven Pro', sans-serif;
+	// font-family: 'Space Mono', monospace;
 }
 
 figcaption {
@@ -19,10 +26,77 @@ figcaption {
     margin-bottom: 20px;
 }
 
+p {
+	color: #76838f;
+}
+
+a {
+	color: #f4733e;
+}
+a:hover {
+	color: #f4733e;
+}
+a:focus {
+	color: #f4733e;
+}
+
+ul {
+	li {
+		color: #76838f;
+	}
+}
+
+h1, h2, h3 {
+	color: #37474f;
+}
+
+h4, h5, h6 {
+	color: #526069;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
 
 
 /* Top navigation bar */
 
+.navbar-default {
+	background-color: #a4a4a4;
+	// border-color: #108896;
+	.navbar-nav {
+		li {
+			a {
+				color: #000;
+			}
+			a:hover {
+				color: #fff;
+				background-color: #f4733e;		
+			}
+		}
+	}
+	.navbar-brand {
+		// padding: 19px 0px;
+		// font-size: 20px;
+		// font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #000;
+	}
+	.navbar-brand:hover {
+		color: #000;
+		background-color: transparent;
+	}
+}
+
+.well {
+	background-color: #ececece6;
+}
+
+.navbar {
+	border-bottom: 6px solid #f4733e;
+  box-shadow: none;
+}
 
 p.byline {
 	text-align: center;
@@ -91,3 +165,41 @@ firstp {
     margin-right: 30px;
 }
 
+// project page CSS
+.authors {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	font-size: 18px;
+	margin-top: 40px;
+	.author {
+		flex: 1 0 18%;
+		.affs {
+			color: #f4733e;
+			font-weight: 500;
+			font-size: 80%;
+		}
+	}
+}
+
+.panel-footer {
+	background-color: #a4a4a4;
+}
+
+.nav-justified {
+	li {
+		a {
+			border-bottom: 1px solid #a4a4a4;
+		}
+	}
+}
+
+.nav-pills {
+	li.active {
+		a, a:hover, a:focus {
+			color: #000000;
+			background-color: #a4a4a4;
+		}
+	}
+}

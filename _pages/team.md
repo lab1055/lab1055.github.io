@@ -1,139 +1,49 @@
 ---
-title: "Machine Learning and Vision Group - Team"
+title: 'Machine Learning and Vision Group - Team'
 layout: gridlay
-excerpt: "Team members"
+excerpt: 'Team members'
 sitemap: false
 permalink: /team/
 ---
 
-<h1 class='page-header'>
-Group Members
-</h1>
+### Phd Students
 
-
-### Faculty
 {% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+{% for member in site.data.current_students.phd %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
+
 <div class="row">
 {% endif %}
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i><br>
-  <a href='{{ member.webpage }}' target='_blank'>Webpage</a>
-  
-  <ul style="overflow: hidden">
-  
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
- 
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-  
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-
-### Students
-{% assign number_printed = 0 %}
-{% for member in site.data.students %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.desig }}</i> <br/>
-  <i>{{ member.info }}<br/>
-  ID: {{ member.id }}</i> 
   {% if member.webpage.size > 0 %}
-  <a href='{{ member.webpage }}' target='_blank'>Webpage</a>
+  <h4><a href='{{ member.webpage }}' target='_blank'>{{ member.name }}</a></h4>
+  {% else %}
+  <h4>{{ member.name }}</h4>
   {% endif %}
-  
-  <ul style="overflow: hidden">
-  
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
+
+<i>{{ member.info }}<br/>
+<i> {{member.topics}}<br />
+
+  <!-- email, gscholar -->
+  <div class="" style="display: flex">
+  {% if member.email.size > 0 %}
+  <a href="mailto: {{member.email}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="fa fa-envelope"></i></a>
   {% endif %}
-  
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
+  {% if member.google-scholar.size > 0 %}
+  <a href="{{member.google-scholar}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="ai ai-google-scholar-square ai-3x"></i></a>
   {% endif %}
-  
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
- 
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-  
-  </ul>
+  </div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
+
 </div>
 {% endif %}
 
@@ -141,59 +51,148 @@ Group Members
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
+
 </div>
 {% endif %}
 
+### Masters Students
+
+{% assign number_printed = 0 %}
+{% for member in site.data.current_students.masters %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.webpage.size > 0 %}
+  <h4><a href='{{ member.webpage }}' target='_blank'>{{ member.name }}</a></h4>
+  {% else %}
+  <h4>{{ member.name }}</h4>
+  {% endif %}
+  <!-- <i>{{ member.desig }}</i> <br/> -->
+  <i>{{ member.info }}<br/>
+  <i>{{member.topics}} <br />
+  <div class="" style="display: flex">
+  {% if member.email.size > 0 %}
+  <a href="mailto: {{member.email}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="fa fa-envelope"></i></a>
+  {% endif %}
+  {% if member.google-scholar.size > 0 %}
+  <a href="{{member.google-scholar}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="ai ai-google-scholar-square ai-3x"></i></a>
+  {% endif %}
+  </div>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+
+</div>
+{% endif %}
 
 ### Research Assistants/Interns
 
-TODO 
+{% assign number_printed = 0 %}
+{% for member in site.data.current_students.third_party_members %}
 
+{% assign even_odd = number_printed | modulo: 2 %}
 
-### Alumni
-<table align="center" style="width:100%">
-<tr><th>Visitors</th>
-    <th>Master Students</th> 
-    <th>Bachelor Students</th>
-  </tr>
-  <tr>
-    <td>Nikolaos Iliopoulos, Spring 2016</td>
-    <td>Bert Visscher, Fall 2017</td>
-    <td>Vishnu Saj, Spring 2017</td>
-  </tr>
-  <tr>
-    <td>Vitaly Fedoseev, all of 2016</td>
-    <td>Ahmad Jamalzada, Fall 2017</td>
-    <td>Joey Braspenning, Spring 2017</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Tjerk Benschop, Summer 2017</td>
-    <td>Margot Leemker, Spring 2017</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Oliver Ostojic, Spring 2016</td>
-    <td>Sietske Lensen, Spring 2017</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Farshaad Hoeseni, Fall 2015</td>
-    <td>Alexander Vanstone, Spring 2016</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td>Tjerk Benschop, Spring 2016</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td>Arjo Andringa, Spring 2016</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td>Daniëlle van Klink, Spring 2016</td>
-  </tr>
-</table>
+{% if even_odd == 0 %}
+
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.webpage.size > 0 %}
+  <h4><a href='{{ member.webpage }}' target='_blank'>{{ member.name }}</a></h4>
+  {% else %}
+  <h4>{{ member.name }}</h4>
+  {% endif %}
+  <!-- <i>{{ member.desig }}</i> <br/> -->
+  <i>{{ member.info }}<br/>
+  <i>{{member.topics}} <br />
+  <div class="" style="display: flex">
+  {% if member.email.size > 0 %}
+  <a href="mailto: {{member.email}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="fa fa-envelope"></i></a>
+  {% endif %}
+  {% if member.google-scholar.size > 0 %}
+  <a href="{{member.google-scholar}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="ai ai-google-scholar-square ai-3x"></i></a>
+  {% endif %}
+  </div>
+  
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+
+</div>
+{% endif %}
+
+### Undergrad Students
+
+{% assign number_printed = 0 %}
+{% for member in site.data.current_students.undergrad %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.webpage.size > 0 %}
+  <h4><a href='{{ member.webpage }}' target='_blank'>{{ member.name }}</a></h4>
+  {% else %}
+  <h4>{{ member.name }}</h4>
+  {% endif %}
+  <!-- <i>{{ member.desig }}</i> <br/> -->
+  <i>{{ member.info }}<br/>
+  <i>{{member.topics}} <br />
+  <div class="" style="display: flex">
+  {% if member.email.size > 0 %}
+  <a href="mailto: {{member.email}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="fa fa-envelope"></i></a>
+  {% endif %}
+  {% if member.google-scholar.size > 0 %}
+  <a href="{{member.google-scholar}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="ai ai-google-scholar-square ai-3x"></i></a>
+  {% endif %}
+  </div>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+
+</div>
+{% endif %}
