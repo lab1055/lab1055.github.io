@@ -3,8 +3,9 @@
   info: "2018 - Present"
   id: cs17mtech11003
   email: cs17mtech11003@iith.ac.in
-  affiliations: IIT Hyderabad, IIT Hyderabad2, IIT Hyderabad3
+  affiliations: IIT Hyderabad
   webpage: https://uttaransinha.github.io/ 
+  topics:
 
 - name: Akshay L Chandra
   id: akshaychandra
@@ -13,6 +14,7 @@
   webpage: "https://akshaychandra.com/"
   affiliations: IIT Hyderabad
   photo: akshaychandra.png
+  topics: Active Learning, Object Detection, Semantic Segmentation
 
 - name: Radhika Dua
   id: radhikadua
@@ -21,22 +23,24 @@
   webpage: "https://radhikadua123.github.io/"
   affiliations: IIT Hyderabad
   photo: radhikadua.jpg
+  topics:
 
 - name: Kancheti Sai Srinivas
   id: saisrinivas
   email: saisrinivas@iith.ac.in
   info: "2019 - Present"
-  email: 
-  # webpage: "https://ravisankaradepu.github.io/"
+  # webpage: 
   affiliations: KMIT, Hyderabad
   photo: placeholder.jpg
+  topics:
 
 - name: Gaurav Bhatt
   photo: gauravbhatt.jpg
   info: "2019 - Present"
   id: gauravbhatt
   email: gauravbhatt@iith.ac.in
-  affiliations: IIT Hyderabad, IIT Hyderabad2, IIT Hyderabad3
+  affiliations: IIT Hyderabad
+  topics:
   # webpage: 
 
 - name: Shivam Chandhok
@@ -46,6 +50,7 @@
   # webpage: "https://ravisankaradepu.github.io/"
   affiliations: IIT Hyderabad
   photo: shivamchandhok.jpg
+  topics:
 
 - name: Rahul Vigneswaran K
   id: rahulvigneswaran
@@ -55,6 +60,7 @@
   affiliations: IIT Hyderabad
   photo: rahulvigneswaran.png
   google-scholar: https://scholar.google.co.in/citations?user=s7P6kbsAAAAJ&hl=en
+  topics:
 
 - name: Vaasudev Narayanan
   id: 
@@ -64,6 +70,7 @@
   affiliations: 
   photo: vaasudevnarayanan.jpg
   google-scholar: https://scholar.google.co.in/citations?user=ncXa5P0AAAAJ&hl=en
+  topics: Computer Vision, Machine Learning
 
 - name: Benin Godfrey L
   id: 
@@ -72,6 +79,7 @@
   webpage: 
   affiliations: 
   photo: placeholder.jpg
+  topics: Computer Vision, Causality, Evolutionary Algorithms
 
 - name: Neha Tarigopula
   id: 
@@ -80,6 +88,7 @@
   webpage: 
   affiliations: 
   photo: neha_tarigopula.jpg
+  topics: Self Supervision, Deep Learning, Computer Vision
 
 # - name: Medha Chakravarthula
 #   id: 

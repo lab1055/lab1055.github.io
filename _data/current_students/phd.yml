@@ -23,15 +23,17 @@
   webpage: https://arghyapal.github.io/ItsArghyaPal.io/
   google-scholar: https://scholar.google.com/citations?user=16BfylwAAAAJ&hl=en
   affiliations: IIT Hyderabad
+  topics: Generative Models, Zero Shot Learning, Task Transfer Learning
 
 - name: Krishna Rao Kakkirala
   photo: placeholder.jpg
   desig: PhD Student
   info: "Part-time, employed at TCS Research, 2015 - Present"
-  id: cs15resch11001
-  email: cs15resch11001@iith.ac.in
+  id: cs15resch11005
+  email: cs15resch11005@iith.ac.in
   google-scholar: https://scholar.google.co.in/citations?user=C6BUHzEAAAAJ&hl=en
   affiliations: IIT Hyderabad
+  topics: 
 
 - name: Anirban Sarkar
   photo: cs16resch11006.jpg
@@ -42,6 +44,7 @@
   webpage: https://sites.google.com/iith.ac.in/anirbansarkar
   google-scholar: https://scholar.google.co.in/citations?user=9UF4mT0AAAAJ&hl=en
   affiliations: IIT Hyderabad
+  topics: Explainable/Robust AI, Causality
 
 - name: K J Joseph
   photo: cs17m18p100001.jpg
@@ -52,6 +55,7 @@
   webpage: "https://josephkj.in/"
   google-scholar: https://scholar.google.com/citations?user=sOG3L94AAAAJ&hl=en
   affiliations: IIT Hyderabad
+  topics: Continual Learning
 
 - name: Abbavaram Gowtham Reddy
   photo: cs19resch11002.jpg
@@ -61,6 +65,7 @@
   email: cs19resch11002@iith.ac.in
   webpage: "https://sites.google.com/view/gowthamabbavaram/abbavaramgowthamreddy"
   affiliations: IIT Hyderabad
+  topics: Deep learning, Causality, Neuro Symbolic AI
 
 - name: Bhat Dittakavi
   photo: ai19resch11001.jpeg
@@ -70,4 +75,5 @@
   email: ai19resch11001@iith.ac.in
   webpage: "http://www.bhatsnotes.com"
   affiliations: IIT Hyderabad
+  topics: Deep Learning, Computer Vision, Human Pose, Visual Dialog Systems
 

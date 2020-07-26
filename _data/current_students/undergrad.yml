@@ -7,6 +7,7 @@
   email: cs16btech11024@iith.ac.in
   webpage: 
   affiliations: IIT Hyderabad
+  topics:
 
 - name: Udit Maniyar
   photo: placeholder.jpg
@@ -15,6 +16,7 @@
   id: es16btech11024
   email: es16btech11024@iith.ac.in
   affiliations: IIT Hyderabad
+  topics:
 
 - name: Surgan Jandial
   photo: cs17btech11038.jpg
@@ -24,6 +26,7 @@
   email: es16btech11024@iith.ac.in
   webpage: 
   affiliations: IIT Hyderabad
+  topics:
 
 - name: Puneet Mangla
   photo: cs17btech11029.jpg
@@ -43,6 +46,7 @@
   email: cs17btech11044@iith.ac.in
   webpage: http://yashkhasbage25.github.io
   affiliations: IIT Hyderabad
+  topics: Generalization and Memorization, Loss Landscapes, Layer-wise Analysis
 
 - name: Vedant Singh
   photo: placeholder.jpg
@@ -51,6 +55,7 @@
   id: cs18btech11047
   email: cs18btech11047@iith.ac.in
   affiliations: IIT Hyderabad
+  topics:
 
 - name: Raj Patil
   photo: placeholder.jpg
@@ -59,6 +64,7 @@
   id: cs18btech11039
   email: cs18btech11039@iith.ac.in
   affiliations: IIT Hyderabad
+  topics:
 
 - name: Karan Bhukar
   photo: placeholder.jpg
@@ -67,6 +73,7 @@
   id: cs18btech11021
   email: cs18btech11021@iith.ac.in
   affiliations: IIT Hyderabad
+  topics:
 
 - name: Shreyas Havaldar
   photo: cs18btech11042.jpg
@@ -76,3 +83,4 @@
   email: cs18btech11042@iith.ac.in
   affiliations: IIT Hyderabad
   webpage: 
+  topics:
