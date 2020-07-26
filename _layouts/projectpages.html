@@ -9,7 +9,7 @@ site.data.projectpages.[page.title].affiliations | split: ", " %} {% assign venu
 site.data.projectpages.[page.title].venue | split: ", " %} {% assign bibtex =
 project_data.materials.bibtex %} {% assign bibtexcopied = false %}
 
-<div class="container-fluid">
+<div class="small-devices container-fluid">
   <div class="row">
     <div class="col-sm-12" style="text-align: center;">
       <!-- Title -->
@@ -87,7 +87,7 @@ project_data.materials.bibtex %} {% assign bibtexcopied = false %}
       </p>
       {% endif %}
     </div>
-    <div class="col-sm-4">
+    <div class="small-materials col-sm-4">
       <h3>Materials</h3>
       <ul style="padding-left: 0; list-style-type: none; font-size: 16px;">
         {% if project_data.materials.paper_url %}

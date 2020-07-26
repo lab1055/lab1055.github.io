@@ -46,7 +46,7 @@ layout: default
 </div>
   
 
-<ul id="profileTabs" class="nav nav-pills nav-justified">
+<ul id="profileTabs" style="padding: 0 10px;" class="nav nav-pills nav-justified">
   <li class="active"><a href="#currentstudents" data-toggle="tab">Current Students</a></li>
   <li><a href="#alumni" data-toggle="tab">Alumni</a></li>
 </ul>
@@ -59,7 +59,7 @@ layout: default
 
 
   <!-- {% assign undergrad = site.data.alumni.undergrad %} -->
-  <div role="tabpanel" class="tab-pane" id="alumni">
+  <div role="tabpanel" style="padding: 0 10px;" class="tab-pane" id="alumni">
     {% if site.data.alumni.phd[0] %}
     <h3> PhD Students </h3>
     <ul>
