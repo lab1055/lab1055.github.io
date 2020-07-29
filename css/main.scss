@@ -72,6 +72,8 @@ img {
     li {
       a {
         color: #000;
+        font-weight: 500;
+        font-size: 15px;
       }
       a:hover {
         color: #fff;
@@ -84,6 +86,7 @@ img {
     // font-size: 20px;
     // font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #000;
+    font-weight: 500;
   }
   .navbar-brand:hover {
     color: #000;
@@ -105,6 +108,11 @@ img {
 .navbar {
   border-bottom: 6px solid #f4733e;
   box-shadow: none;
+}
+
+.navbar-header {
+  background: #f4733e;
+  padding-left: 10px;
 }
 
 p.byline {

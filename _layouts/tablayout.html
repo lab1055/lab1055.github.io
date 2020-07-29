@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<h1 class="page-header">
+  Resources
+</h1>
+
+<ul
+  id="profileTabs"
+  style="padding: 0 10px; margin-bottom: 50px;"
+  class="nav nav-pills nav-justified"
+>
+  <li class="active"><a href="#datasets" data-toggle="tab">Datasets</a></li>
+  <li><a href="#code" data-toggle="tab">Code (selected)</a></li>
+</ul>
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane active" id="datasets">
+    <div class="col-sm-12">
+      <p>
+        <b>DaiSEE: Dataset for Affective States in E-Environments</b> is available
+        <a href="https://iith.ac.in/~daisee-dataset">here</a>. The dataset and the corresponding
+        work are described in the following papers:
+      </p>
+      <p>
+        A Gupta, A DCunha, K Awasthi, V Balasubramanian, DAiSEE: Towards User Engagement Recognition
+        in the Wild, arXiv preprint: arXiv:1609.01885
+      </p>
+      <p>
+        A Kamath, A Biswas, V. Balasubramanian, A Crowdsourced Approach to Student Engagement
+        Recognition in e-Learning Environments, IEEE Winter Conference on Applications of Computer
+        Vision (WACV'16)
+      </p>
+    </div>
+  </div>
+
+  <!-- {% assign undergrad = site.data.alumni.undergrad %} -->
+  <div role="tabpanel" style="padding: 0 10px;" class="tab-pane" id="code">
+    {{content}}
+  </div>
+</div>

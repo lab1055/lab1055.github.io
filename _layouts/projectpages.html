@@ -6,8 +6,8 @@ layout: default
 {% assign project_data = site.data.projectpages.[page.title] %} {% assign authors =
 site.data.projectpages.[page.title].authors | split: ", " %} {% assign affiliations =
 site.data.projectpages.[page.title].affiliations | split: ", " %} {% assign venue =
-site.data.projectpages.[page.title].venue | split: ", " %} {% assign bibtex =
-project_data.materials.bibtex %} {% assign bibtexcopied = false %}
+site.data.projectpages.[page.title].venue %} {% assign bibtex = project_data.materials.bibtex %} {%
+assign bibtexcopied = false %}
 
 <div class="small-devices container-fluid">
   <div class="row">

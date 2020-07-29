@@ -60,6 +60,14 @@ layout: default
 
   <!-- {% assign undergrad = site.data.alumni.undergrad %} -->
   <div role="tabpanel" style="padding: 0 10px;" class="tab-pane" id="alumni">
+  {% if site.data.alumni.postdoc[0] %}
+    <h3> Post Doctorate Students </h3>
+    <ul>
+    {% for student in site.data.alumni.postdoc %}
+      <li style="font-size: 15px;">{% if student.webpage %}<a href="{{student.webpage}}">{{student.name}}</a>{% else %}{{student.name}}{% endif %}, {{student.info}} {% if student.next %} (<i>Next: </i>{{student.next}}){%endif%}{% if student.accomplishments %}, <span style="color: blue">{{student.accomplishments}}</span>{% endif %}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
     {% if site.data.alumni.phd[0] %}
     <h3> PhD Students </h3>
     <ul>
