@@ -245,6 +245,9 @@ pubtit {
 }
 
 @media (max-width: 790px) {
+  .navbar-right {
+    float: left !important;
+  }
   .small-devices {
     margin-top: 50px;
   }

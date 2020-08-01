@@ -1,5 +1,6 @@
 ---
-title: "example_ex" # Will be the last part of the route, this title is purely for navigation
+title: "Example project about examples" 
+nav_title: "example_ex"
 layout: projectpages
 sitemap: false
 permalink: /projectpages/example_ex 
