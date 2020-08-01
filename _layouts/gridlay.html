@@ -28,8 +28,23 @@ layout: default
   <div class="col-sm-6 clearfix">
     <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
     <h4><a href='{{ member.webpage }}' target='_blank'>{{ member.name }}</a></h4>
-    <i>{{ member.info }}<br>email: <{{ member.email }}></i><br>
-  </div>
+    <i>{{ member.info }}
+    <br>email: <{{ member.email }}></i><br>
+    <!-- email, gscholar -->
+    <div class="" style="display: flex">
+    {% if member.email.size > 0 %}
+    <a href="mailto: {{member.email}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="fa fa-envelope"></i></a>
+    {% endif %}
+    {% if member.google-scholar.size > 0 %}
+    <a href="{{member.google-scholar}}" target="_blank"><i style="font-size: 30px; margin-right: 10px;" class="ai ai-google-scholar-square ai-3x"></i></a>
+    {% endif %}
+    </div>
+    <div>
+      <a href="{{ site.url }}{{ site.baseurl }}/vineethnb/courses" target="_blank">Courses</a>, 
+      <a href="{{ site.url }}{{ site.baseurl }}/vineethnb/tutorials" target="_blank">Tutorials</a> and 
+      <a href="{{ site.url }}{{ site.baseurl }}/vineethnb/talks" target="_blank">Talks</a>
+    </div>
+    </div>
   
   {% assign number_printed = number_printed | plus: 1 %}
   

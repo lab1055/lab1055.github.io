@@ -13,29 +13,52 @@ layout: default
 >
   <li class="active"><a href="#datasets" data-toggle="tab">Datasets</a></li>
   <li><a href="#code" data-toggle="tab">Code (selected)</a></li>
+  <li><a href="#patents" data-toggle="tab">Patents</a></li>
+  <li><a href="#books" data-toggle="tab">Books</a></li>
+  <li><a href="#media" data-toggle="tab">Media Coverage</a></li>
+  <li><a href="#service" data-toggle="tab">Service</a></li>
+  <li><a href="#awards" data-toggle="tab">Awards</a></li>
+
 </ul>
 <div class="tab-content">
   <div role="tabpanel" class="tab-pane active" id="datasets">
     <div class="col-sm-12">
-      <p>
-        <b>DaiSEE: Dataset for Affective States in E-Environments</b> is available
-        <a href="https://iith.ac.in/~daisee-dataset">here</a>. The dataset and the corresponding
-        work are described in the following papers:
-      </p>
-      <p>
-        A Gupta, A DCunha, K Awasthi, V Balasubramanian, DAiSEE: Towards User Engagement Recognition
-        in the Wild, arXiv preprint: arXiv:1609.01885
-      </p>
-      <p>
-        A Kamath, A Biswas, V. Balasubramanian, A Crowdsourced Approach to Student Engagement
-        Recognition in e-Learning Environments, IEEE Winter Conference on Applications of Computer
-        Vision (WACV'16)
-      </p>
+      {% include resources/datasets.html %}
     </div>
   </div>
 
   <!-- {% assign undergrad = site.data.alumni.undergrad %} -->
   <div role="tabpanel" style="padding: 0 10px;" class="tab-pane" id="code">
-    {{content}}
+    {{ content }}
+  </div>
+
+  <div role="tabpanel" class="tab-pane active" id="patents">
+    <div class="col-sm-12">
+      {% include resources/patents.html %}
+    </div>
+  </div>
+
+  <div role="tabpanel" class="tab-pane active" id="books">
+    <div class="col-sm-12">
+      {% include resources/books.html %}
+    </div>
+  </div>
+
+  <div role="tabpanel" class="tab-pane active" id="media">
+    <div class="col-sm-12">
+      {% include resources/media.html %}
+    </div>
+  </div>
+
+  <div role="tabpanel" class="tab-pane active" id="service">
+    <div class="col-sm-12">
+      {% include resources/service.html %}
+    </div>
+  </div>
+
+  <div role="tabpanel" class="tab-pane active" id="awards">
+    <div class="col-sm-12">
+      {% include resources/awards.html %}
+    </div>
   </div>
 </div>
