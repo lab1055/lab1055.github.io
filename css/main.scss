@@ -244,10 +244,13 @@ pubtit {
   display: none;
 }
 
-@media (max-width: 790px) {
+@media (min-width: 768px) and (max-width: 998px) {
   .navbar-right {
     float: left !important;
   }
+}
+
+@media (max-width: 790px) {
   .small-devices {
     margin-top: 50px;
   }
