@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1 class="page-header">
-  Resources
+  News and Media
 </h1>
 
 <ul
@@ -11,48 +11,26 @@ layout: default
   style="padding: 0 10px; margin-bottom: 50px;"
   class="nav nav-pills nav-justified"
 >
-  <li class="active"><a href="#datasets" data-toggle="tab">Datasets</a></li>
-  <li><a href="#code" data-toggle="tab">Code (selected)</a></li>
-  <li><a href="#patents" data-toggle="tab">Patents</a></li>
-  <li><a href="#books" data-toggle="tab">Books</a></li>
+  <li class="active"><a href="#news" data-toggle="tab">News</a></li>
   <li><a href="#media" data-toggle="tab">Media Coverage</a></li>
-  <li><a href="#service" data-toggle="tab">Service</a></li>
   <li><a href="#awards" data-toggle="tab">Awards</a></li>
-
 </ul>
 <div class="tab-content">
-  <div role="tabpanel" class="tab-pane active" id="datasets">
+  <div role="tabpanel" class="tab-pane active" id="news">
     <div class="col-sm-12">
-      {% include resources/datasets.html %}
-    </div>
-  </div>
-
-  <!-- {% assign undergrad = site.data.alumni.undergrad %} -->
-  <div role="tabpanel" style="padding: 0 10px;" class="tab-pane" id="code">
-    {{ content }}
-  </div>
-
-  <div role="tabpanel" class="tab-pane" id="patents">
-    <div class="col-sm-12">
-      {% include resources/patents.html %}
-    </div>
-  </div>
-
-  <div role="tabpanel" class="tab-pane" id="books">
-    <div class="col-sm-12">
-      {% include resources/books.html %}
+      {% for article in site.data.news %}
+      <p style="color: #000;">
+        <span style="font-family: monaco, monospace; background-color: #f4733e38; color: #000000;"
+          >({{ article.date }})</span
+        >: {{ article.headline }}
+      </p>
+      {% endfor %}
     </div>
   </div>
 
   <div role="tabpanel" class="tab-pane" id="media">
     <div class="col-sm-12">
       {% include resources/media.html %}
-    </div>
-  </div>
-
-  <div role="tabpanel" class="tab-pane" id="service">
-    <div class="col-sm-12">
-      {% include resources/service.html %}
     </div>
   </div>
 

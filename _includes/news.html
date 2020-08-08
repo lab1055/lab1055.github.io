@@ -1,8 +1,8 @@
 <div class="well">
-  <h4>News</h4>
+  <h3 style="text-decoration: underline;">News</h3>
 
   {% for article in site.data.news limit:12 %}
-  <p><b>{{ article.date }} : </b>{{ article.headline }}</p>
+  <p><b><i>{{ article.date }} : </i></b>{{ article.headline }}</p>
   {% endfor %}
 
   <h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>

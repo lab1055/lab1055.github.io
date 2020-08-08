@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning and Vision Group - Publications"
-layout: publications
+layout: research/publications
 excerpt: "Publications"
 sitemap: false
-permalink: /publications/
+permalink: /research/publications/
 ---

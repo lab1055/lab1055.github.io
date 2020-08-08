@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/"
-        >Machine Learning and Vision Group - IITH</a
+        >Machine Learning and Vision Group at IITH</a
       >
       <button
         type="button"
@@ -20,9 +20,27 @@
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
+        <li class="dropdown">
+          <a
+            href="#"
+            class="dropdown-toggle"
+            data-toggle="dropdown"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Research <span class="caret"></span
+          ></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.url }}{{ site.baseurl }}/research/publications">Publications</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/research/books">Books</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/research/patents">Patents</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/research/datasets">Datasets</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/research/code">Code</a></li>
+          </ul> 
+        </li>
+        <!-- <li><a href="">Publications</a></li> -->
         <li><a href="{{ site.url }}{{ site.baseurl }}/team">Team</a></li>
-        <li><a href="{{ site.url }}{{ site.baseurl }}/resources">Miscellaneous</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/resources">News and Media</a></li>
         <li><a href="{{ site.url }}{{ site.baseurl }}/vacancies">Vacancies</a></li>
         <li><a href="{{ site.url }}{{ site.baseurl }}/contact">Contact</a></li>
       </ul>

@@ -27,7 +27,7 @@ figcaption {
 }
 
 p {
-  color: #76838f;
+  color: #2e2e2e;
 }
 
 a {
@@ -42,20 +42,20 @@ a:focus {
 
 ul {
   li {
-    color: #76838f;
+    color: #2e2e2e;
   }
 }
 
 h1,
 h2,
 h3 {
-  color: #37474f;
+  color: #000;
 }
 
 h4,
 h5,
 h6 {
-  color: #526069;
+  color: #000;
 }
 
 img {
@@ -63,12 +63,30 @@ img {
   max-width: 100%;
 }
 
-/* Top navigation bar */
+.highlight {
+  color: blue;
+}
 
+/* Top navigation bar */
 .navbar-default {
   background-color: #a4a4a4;
   // border-color: #108896;
   .navbar-nav {
+    .open {
+      .dropdown-menu {
+        li {
+          a {
+            color: #000;
+            font-weight: 500;
+            font-size: 15px;
+          }
+          a:hover {
+            color: #fff;
+            background-color: #f4733e;
+          }
+        }
+      }
+    }
     li {
       a {
         color: #000;
@@ -224,12 +242,16 @@ pubtit {
 .nav-justified {
   li {
     a {
-      border-bottom: 1px solid #a4a4a4;
+      border: 1px solid #a4a4a4;
     }
   }
 }
 
 .nav-pills {
+  li {
+    padding: 0 10px;
+  }
+  
   li.active {
     a,
     a:hover,
