@@ -67,6 +67,12 @@ img {
   color: blue;
 }
 
+.header-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Top navigation bar */
 .navbar-default {
   background-color: #a4a4a4;
@@ -105,10 +111,13 @@ img {
     // font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #000;
     font-weight: 500;
+    background: #f4733e;
+    margin-left: 0 !important;
+    height: initial;
   }
   .navbar-brand:hover {
     color: #000;
-    background-color: transparent;
+    background-color: #f4733e;
   }
 
   .navbar-toggle {
@@ -129,7 +138,6 @@ img {
 }
 
 .navbar-header {
-  background: #f4733e;
   padding-left: 10px;
 }
 
@@ -251,7 +259,7 @@ pubtit {
   li {
     padding: 0 10px;
   }
-  
+
   li.active {
     a,
     a:hover,
@@ -274,6 +282,9 @@ pubtit {
 
 @media (max-width: 790px) {
   .small-devices {
+    margin-top: 35px;
+  }
+  .small-devices-home {
     margin-top: 50px;
   }
   .small-materials {
