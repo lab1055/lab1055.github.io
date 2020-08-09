@@ -250,9 +250,42 @@ pubtit {
 .nav-justified {
   li {
     a {
-      border: 1px solid #a4a4a4;
+      border: 1px solid #717171;
+      background-color: #a4a4a4;
+      color: white;
     }
   }
+}
+
+.nav {
+  li {
+    a:hover {
+      color: #f4733e;
+    }
+  }
+}
+
+.nav-tabs {
+  .nav-justified {
+    &.active {
+      a {
+        background: white;
+        color: black;
+      }
+    }
+  }
+}
+
+.nav-tabs.nav-justified > .active > a {
+  background: white;
+  color: black;
+  border: 1px solid #333333;
+  border-bottom: none;
+}
+
+.nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #333333;
+  border-bottom: none;
 }
 
 .nav-pills {
@@ -265,7 +298,7 @@ pubtit {
     a:hover,
     a:focus {
       color: #000000;
-      background-color: #a4a4a4;
+      background-color: #fff;
     }
   }
 }

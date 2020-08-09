@@ -34,4 +34,5 @@ Please apply through the [CSE department](https://cse.iith.ac.in) for our [PhD](
 
 At the CSE department at IIT-H, we also offer MTech programs in Machine Learning.
 
-* [MTech in Data Science for working professionals](https://cse.iith.ac.in/?q=MDS)</div>>
+* [MTech in Data Science for working professionals](https://cse.iith.ac.in/?q=MDS)
+</div>
