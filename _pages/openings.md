@@ -6,7 +6,7 @@ sitemap: false
 permalink: /vacancies
 ---
 <h1 class='page-header'>
-Open positions
+Open Positions
 </h1>
 
 * **(May 2020 - Web Developer):** We are looking for a web developer on a short 3-month contract. (The position can be extended on mutual agreement). If interested, please email us with any portfolio you may have.
