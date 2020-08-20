@@ -7,22 +7,27 @@ permalink: /
 ---
 
 
-<div style="line-height: 21px; margin-top: 30px;">Our group’s research interests lie at the intersection of the theory and application of machine learning - with a focus on applications in computer vision. With a strong interest in the mathematical fundamentals and a passion for real-world application, our group aims on being at the forefront of the field, by publishing in the best of venues in the areas of machine learning and computer vision, while at the same time, being guided by application contexts derived from real-world use. 
+<div style="line-height: 21px; margin-top: 30px;">
+Our group’s research interests lie at the intersection of the theory and application of machine learning - with a focus on applications in computer vision. With a strong interest in the mathematical fundamentals and a passion for real-world application, our group aims on being at the forefront of the field, by carrying out impactful research in the areas of deep learning, machine learning and computer vision, guided by application contexts derived from real-world use.
 
-In recent years, our work on the algorithmic side has focused on non-convex optimization, explainable machine learning and deep generative models; while our applied work is on domains including agriculture, e-learning, security/surveillance and human behavior understanding. 
+*Keywords*: Deep Learning, Machine Learning, Computer Vision, Optimization, Agriculture, Autonomous Navigation
 
-As machine learning and Artificial Intelligence continue to make inroads into the daily life of every human, our future research plans focus on the development of machine learning methods for real-world application contexts and challenges, with an emphasis on both theoretical and empirical analysis.
+#### Our problems of interest in recent times have focused on:
+* **Learning with limited supervision (or) Label-efficient learning**: This includes problems such as zero-shot learning, few-shot learning, continual learning, active learning, domain adaptation, domain generalization
+* **Explainable machine/deep learning**: This includes problems on use of causality in machine learning, adversarial and attributional robustness, disentanglement of latent variables
 
-#### Ongoing Projects (Selected)
+We are also broadly interested in the theoretical understanding of deep learning, and making deep neural networks faster (to train and test), as well as smaller.
 
-* Non-convex Optimization and Deep Learning (Intel PhD Fellowship)
-* Explainable Machine Learning (Funded by MHRD, DST and Honeywell through the UAY program)
-* Deep Generative Models: Going Beyond Supervised Learning (Intel PhD Fellowship)
-* Object Detection in Unconstrained Settings, including Drone Images and Low-resolution Thermal Images (Funded by DRDO and IBM)
-* Learning with Weak Supervision for Autonomous Vehicles (Funded by Intel)
-* Deep Learning for Agriculture (A DST-JST SICORP Collaborative Project with Univ of Tokyo, IIT-B, IIIT-H, and PJTSAU)
+#### From an application standpoint, problems of our recent interest include:
+* **Agriculture**: Plant phenotyping using computer vision
+* **Drone-based vision**: Detection of objects from drone imagery, as well as low-resolution imagery
+* **Autonomous navigation**: adding levels of autonomy to driving vehicles in developing countries, focusing on India
+* **Human behavior understanding**: Detection of emotions, human poses, gestures, etc of the human body using images and videos
 
- 
+Please see our Research pages for more information on our research interests, projects, publications, etc.
+
+**Why Lab1055**? Machine Learning and Vision (MLV = 1055 in Roman numerals).
+
 We are grateful to the following organizations whose support sustains our research.
 </div>
 
