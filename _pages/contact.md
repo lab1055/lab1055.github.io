@@ -1,14 +1,10 @@
 ---
 title: 'Machine Learning and Vision Group - Contact Us'
-layout: textlay
+layout: contact
 excerpt: 'Contact Us'
 sitemap: false
 permalink: /contact/
 ---
-
-<h1 class='page-header'>
-Contact us
-</h1>
 
 #### Lab Address
 
