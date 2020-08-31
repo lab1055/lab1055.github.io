@@ -20,3 +20,5 @@ permalink: /research/code/
 - **Fast Dawid-Skene:** A Fast Vote Aggregation Scheme: <a href="https://github.com/sukrutrao/Fast-Dawid-Skene">Github code</a>
 
 - **Cap2Vid:** Generating Videos from Captions: <a href="https://github.com/Singularity42/cap2vid">Github code</a>
+
+- **EasyRFP:** An Easy to Use Edge Computing Toolkit for Real-Time Field Phenotyping: <a href="https://github.com/lab1055/easy-rfp">Github code</a>

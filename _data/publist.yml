@@ -23,9 +23,25 @@
 #     url:
 
 - year: 2020
+  title: "DANTE: Deep Alternations for Training Neural Networks"
+  authors: Vaibhav Sinha, Sneha Kudugunta, Adepu Ravi Sankar, Surya Teja Chavali, V. Balasubramanian
+  venue: Elsevier Neural Networks, Jul 2020. <span style='color:blue'>(Impact Factor - 5.5)</span>
+
+
+- year: 2020
+  title: "Zero-shot Domain Generalization"
+  authors: Udit Maniyar, Joseph K J, Aniket Deshmukh, Urun Dogan, V. Balasubramanian
+  venue: Proceedings of British Machine Vision Conference (<b>BMVC’20</b>), Sep 2020. (Also presented at Workshop on Visual Learning with Limited Labels, IEEE-CVF International Conference on Computer Vision and Pattern Recognition (CVPR’20), Jun 2020)
+
+- year: 2020
+  title: "Spatial Feedback Learning to Improve Semantic Segmentation in Hot Weather"
+  authors: Shyam Nandan R., Anbumani S., V. Balasubramanian, C V Jawahar
+  venue: Proceedings of British Machine Vision Conference (<b>BMVC’20</b>), Sep 2020.
+
+- year: 2020
   title: 'Attributional Robustness Training using Input-Gradient Spatial Alignment'
   authors: Mayank S., Nupur K., Puneet M., Abhishek S., V. Balasubramanian, Balaji K.
-  venue: Proceedings of European Conference on Computer Vision (<b>ECCV'20</b>*), Aug 2020.
+  venue: Proceedings of European Conference on Computer Vision (<b>ECCV'20</b>), Aug 2020.
 
 - year: 2020
   title: 'On Saliency Maps and Adversarial Robustness'
