@@ -9,11 +9,11 @@ permalink: /vacancies
 Open Positions
 </h1>
 
-* **(May 2020 - Web Developer):** We are looking for a web developer on a short 3-month contract. (The position can be extended on mutual agreement). If interested, please email us with any portfolio you may have.
+<!-- * **(May 2020 - Web Developer):** We are looking for a web developer on a short 3-month contract. (The position can be extended on mutual agreement). If interested, please email us with any portfolio you may have. -->
 
 * **(May 2020 - Long-term Research Internship):** Unfortunately, our long-term research internship positions are filled at this time. Considering the COVID-19 situation, we expect to have clarity on open positions around mid-June 2020. We are sorry we may not be able to respond to individual emails, unfortunately
 
-* **(Aug 2019 - Postdoctoral Fellow):** If you are interested in pursuing a postdoctoral fellowship with our group, please send an email with subject line “Postdoctoral Position at IIT-H” to discuss more.
+<!-- * **(Aug 2019 - Postdoctoral Fellow):** If you are interested in pursuing a postdoctoral fellowship with our group, please send an email with subject line “Postdoctoral Position at IIT-H” to discuss more. -->
 
 <div class="well">
 **(Sticky):** Unfortunately, we are unable to take short-term interns; We sincerely apologize that we are unable to respond to individual emails seeking such internships. Please use [this link](https://cse.iith.ac.in/admissions/internships.html) to apply for the CSE@IITH summer internship program.

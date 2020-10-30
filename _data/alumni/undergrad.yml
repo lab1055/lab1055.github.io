@@ -5,6 +5,27 @@
 #   webpage: 
 #   accomplishments: 
 
+- name: Devansh Agarwal
+  info: 2020
+  next: Amazon, Hyderabad
+  # optional
+  webpage: 
+  accomplishments: Silver Medal for Academic Excellence, BTech in Engineering Science
+
+- name: Ninad Akolekar
+  info: 2020
+  # next: 
+  # # optional
+  # webpage: 
+  # accomplishments: 
+
+- name: Udit Maniyar
+  info: 2020 
+  next: Amazon, Hyderabad
+  # # optional
+  # webpage: 
+  # accomplishments: 
+
 - name:  Sukrut Rao
   info: 2019
   next: PhD, Max Planck Institute

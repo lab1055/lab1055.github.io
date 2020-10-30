@@ -1,10 +1,39 @@
 # Please use this template
 # - name:
 #   info:
-#   next:
 #   # optional
+#   next:
 #   webpage:
 #   accomplishments:
+
+
+- name: Sai Vikas Desai
+  info: 2017 - 20
+  next: Qualcomm
+  # optional
+  webpage: https://svdesai.github.io/
+  accomplishments: Excellence in Research Award in CSE, 2020
+
+- name: Sai Eswar Garapati
+  info: 2019 - 20
+  next: Broadcom
+  # optional
+  webpage: 
+  accomplishments: 
+
+- name: Rohit Dubey
+  info: 2019-20
+  next: PhD at IIT-Hyderabad (External), Micron Technologies
+  # optional
+  webpage: 
+  accomplishments: 
+
+- name: Smruti Charkha
+  info: 2019-20
+  next:
+  # optional
+  webpage:
+  accomplishments:
 
 - name: Nehal Mamgain
   info: 2018 - 19

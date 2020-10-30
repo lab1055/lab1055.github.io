@@ -1,25 +1,4 @@
 
-- name: Sai Vikas Desai
-  photo: cs17mtech11011.jpg
-  desig: MTech Student
-  info: "2017 - Present"
-  id: cs17mtech11011
-  email: cs17mtech11011@iith.ac.in
-  webpage: https://svdesai.github.io/
-  affiliations: IIT Hyderabad
-  topics: Active Learning, Meta Learning, Object Detection, Deep Learning, Computer Vision
-
-- name: Piyushi Manupriya
-  photo: cs18mtech11019.jpg
-  desig: MTech Student
-  info: "2018 - Present"
-  id: cs18mtech11019
-  email: cs18mtech11019@iith.ac.in
-  affiliations: IIT Hyderabad
-  webpage: https://piyushi-0.github.io/
-  google-scholar: https://scholar.google.com/citations?user=-9baEZEAAAAJ&hl=en
-  topics: Explainable Machine Learning, Optimization, Probabilistic Modelling
-
 - name: Chaitanya Devaguptapu
   photo: cs19mtech11025.jpg
   desig: MTech Student
@@ -29,33 +8,6 @@
   webpage: https://tdchaitanya.github.io/
   affiliations: IIT Hyderabad
   topics: Learning with Limited Data, Model Compression, Neural Architecture Search
-
-- name: Smruti Charkha
-  photo: placeholder-f.jpg
-  desig: MTech Student
-  info: "2019 - "
-  id: cs18mtech11011
-  email: cs18mtech11011@iith.ac.in
-  affiliations: IIT Hyderabad
-  topics:
-
-- name: Sai Eswar Garapati
-  photo: placeholder.jpg
-  desig: MTech Student
-  info: "2019 - Present"
-  id: cs17mds11022
-  email: cs17mds11022@iith.ac.in
-  affiliations: IIT Hyderabad
-  topics:
-
-- name: Rohit Dubey
-  photo: placeholder.jpg
-  desig: MTech Student
-  info: "2019 - Present"
-  id: cs17mds11019
-  email: cs17mds11019@iith.ac.in
-  affiliations: IIT Hyderabad
-  topics:
 
 - name: Kunal Kadian
   photo: ai19mtech11001.jpg
@@ -72,5 +24,23 @@
   info: "2020 - Present"
   id: cs18mtech11020
   email: cs18mtech11020@iith.ac.in
+  affiliations: IIT Hyderabad
+  topics:
+
+- name: Pranoy Panda
+  photo: placeholder.jpg
+  desig: MTech Student
+  info: "2020 - Present"
+  id: cs20mtech12002
+  email: cs20mtech12002@iith.ac.in
+  affiliations: IIT Hyderabad
+  topics:
+
+- name: Shivangana Rawat
+  photo: placeholder-f.jpg
+  desig: MTech Student
+  info: "2020 - Present"
+  id: cs20mtech12001
+  email: cs20mtech12001@iith.ac.in
   affiliations: IIT Hyderabad
   topics:

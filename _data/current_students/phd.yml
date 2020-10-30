@@ -3,17 +3,6 @@
 #  info:
 #  email:
 
-
-- name: Adepu Ravi Sankar
-  photo: cs14resch11001.jpg
-  desig: PhD Student
-  info: "Intel PhD Fellow, 2014 - Present"
-  id: cs14resch11001
-  email: cs14resch11001@iith.ac.in
-  webpage: "https://ravisankaradepu.github.io/"
-  google-scholar: https://scholar.google.co.in/citations?user=43wGB98AAAAJ&hl=en
-  topics: Machine learning, Deep Learning, Optimization
-
 - name: Arghya Pal
   photo: cs15resch11001.jpg
   desig: PhD Student
@@ -25,15 +14,15 @@
   affiliations: IIT Hyderabad
   topics: Generative Models, Zero Shot Learning, Task Transfer Learning
 
-- name: Krishna Rao Kakkirala
-  photo: placeholder.jpg
-  desig: PhD Student
-  info: "Part-time, employed at TCS Research, 2015 - Present"
-  id: cs15resch11005
-  email: cs15resch11005@iith.ac.in
-  google-scholar: https://scholar.google.co.in/citations?user=C6BUHzEAAAAJ&hl=en
-  affiliations: IIT Hyderabad
-  topics: 
+# - name: Krishna Rao Kakkirala
+#   photo: placeholder.jpg
+#   desig: PhD Student
+#   info: "Part-time, employed at TCS Research, 2015 - Present"
+#   id: cs15resch11005
+#   email: cs15resch11005@iith.ac.in
+#   google-scholar: https://scholar.google.co.in/citations?user=C6BUHzEAAAAJ&hl=en
+#   affiliations: IIT Hyderabad
+#   topics: 
 
 - name: Anirban Sarkar
   photo: cs16resch11006.jpg
@@ -49,13 +38,25 @@
 - name: K J Joseph
   photo: cs17m18p100001.jpg
   desig: PhD Student
-  info: "2017 - Present"
+  info: "TCS PhD Fellow, 2017 - Present"
   id: cs17m18p100001
   email: cs17m18p100001@iith.ac.in
   webpage: "https://josephkj.in/"
   google-scholar: https://scholar.google.com/citations?user=sOG3L94AAAAJ&hl=en
   affiliations: IIT Hyderabad
   topics: Continual Learning
+
+
+- name: Piyushi Manupriya
+  photo: cs18mtech11019.jpg
+  desig: PhD Student
+  info: "2018 - Present (Co-advisor, Advisor: [Prof Saketha Nath J](https://www.iith.ac.in/~saketha/), IIT-H)"
+  id: cs18mtech11019
+  email: cs18mtech11019@iith.ac.in
+  affiliations: IIT Hyderabad
+  webpage: https://piyushi-0.github.io/
+  google-scholar: https://scholar.google.com/citations?user=-9baEZEAAAAJ&hl=en
+  topics: Explainable Machine Learning, Optimization, Probabilistic Modelling
 
 - name: Abbavaram Gowtham Reddy
   photo: cs19resch11002.jpg
@@ -76,4 +77,25 @@
   webpage: "http://www.bhatsnotes.com"
   affiliations: IIT Hyderabad
   topics: Deep Learning, Computer Vision, Human Pose, Visual Dialog Systems
+
+- name: Hari Chandana Kuchibhotla
+  photo: placeholder-f.jpg
+  desig: PhD Student
+  info: "2020 - Present"
+  id: ai20resch11006
+  email: ai20resch11006@iith.ac.in
+  # webpage: 
+
+  affiliations: IIT Hyderabad
+  # topics: 
+
+- name: Sairam Rebbapragada
+  photo: placeholder.jpg
+  desig: PhD Student
+  info: "2020 - Present"
+  id: ai20resch13001
+  email: ai20resch13001@iith.ac.in
+  # webpage: 
+  affiliations: IIT Hyderabad
+  # topics: 
 

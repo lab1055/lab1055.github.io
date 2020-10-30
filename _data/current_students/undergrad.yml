@@ -1,23 +1,4 @@
 
-- name: Ninad Akolekar
-  photo: cs16btech11024.jpg
-  desig: BTech Student
-  # info: "2017 - Present"
-  id: cs16btech11024
-  email: cs16btech11024@iith.ac.in
-  webpage: 
-  affiliations: IIT Hyderabad
-  topics:
-
-- name: Udit Maniyar
-  photo: placeholder.jpg
-  desig: BTech Student
-  # info: "2018 - Present"
-  id: es16btech11024
-  email: es16btech11024@iith.ac.in
-  affiliations: IIT Hyderabad
-  topics:
-
 - name: Surgan Jandial
   photo: cs17btech11038.jpg
   desig: BTech Student
@@ -81,6 +62,16 @@
   # info: "2020 - Present"
   id: cs18btech11042
   email: cs18btech11042@iith.ac.in
+  affiliations: IIT Hyderabad
+  webpage: 
+  topics:
+
+- name: Nishant Reddy
+  photo: placeholder.jpg
+  desig: BTech Student
+  # info: "2020 - Present"
+  id: 
+  email: 
   affiliations: IIT Hyderabad
   webpage: 
   topics:

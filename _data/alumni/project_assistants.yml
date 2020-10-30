@@ -5,6 +5,20 @@
 #   webpage: 
 #   accomplishments: 
 
+- name: Sandeep Inuganti
+  info: 2019 - 20
+  next: Masters, University of Tuebingen, Germany
+  # optional
+  # webpage: 
+  # accomplishments: 
+
+- name: Rahul Nittala
+  info: 2019 - 20
+  next: Masters, Univ of Massachusetts, Amherst
+  # optional
+  # webpage: 
+  # accomplishments: 
+
 - name: Harshitha Machiraju
   info: 2018 - 19 
   next: PhD, EPFL

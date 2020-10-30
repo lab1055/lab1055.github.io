@@ -23,15 +23,27 @@
 #     url:
 
 - year: 2020
+  title: "Meta-Consolidation for Continual Learning"
+  authors: Joseph K J, V. Balasubramanian
+  venue: Proceedings of Neural Information Processing Systems (<b>NeurIPS’20</b>), Dec 2020.
+  paper:
+    url: https://arxiv.org/abs/2010.00352
+
+
+- year: 2020
   title: "DANTE: Deep Alternations for Training Neural Networks"
   authors: Vaibhav Sinha, Sneha Kudugunta, Adepu Ravi Sankar, Surya Teja Chavali, V. Balasubramanian
   venue: Elsevier Neural Networks, Jul 2020. <span style='color:blue'>(Impact Factor - 5.5)</span>
+  paper:
+    url: https://arxiv.org/abs/1902.00491
 
 
 - year: 2020
   title: "Zero-shot Domain Generalization"
   authors: Udit Maniyar, Joseph K J, Aniket Deshmukh, Urun Dogan, V. Balasubramanian
   venue: Proceedings of British Machine Vision Conference (<b>BMVC’20</b>), Sep 2020. (Also presented at Workshop on Visual Learning with Limited Labels, IEEE-CVF International Conference on Computer Vision and Pattern Recognition (CVPR’20), Jun 2020)
+  paper: 
+    url: https://arxiv.org/abs/2008.07443
 
 - year: 2020
   title: "Spatial Feedback Learning to Improve Semantic Segmentation in Hot Weather"
@@ -42,6 +54,8 @@
   title: 'Attributional Robustness Training using Input-Gradient Spatial Alignment'
   authors: Mayank S., Nupur K., Puneet M., Abhishek S., V. Balasubramanian, Balaji K.
   venue: Proceedings of European Conference on Computer Vision (<b>ECCV'20</b>), Aug 2020.
+  paper:
+    url: https://arxiv.org/abs/1911.13073
 
 - year: 2020
   title: 'On Saliency Maps and Adversarial Robustness'
@@ -66,14 +80,7 @@
   authors: Piyushi M., Saketha Nath J, V. Balasubramanian
   venue: Workshop on Human Interpretability in Machine Learning (WHI 2020) and  Workshop on Extending Explainable AI Beyond Deep Models and Classifiers (XXAI), International Conference on Machine Learning (ICML'20), Jul 2020.
   paper:
-    url:
-
-- year: 2020
-  title: 'Zero-shot Domain Generalization'
-  authors: Udit Maniyar, Joseph K J, Aniket Deshmukh, Urun Dogan, V. Balasubramanian
-  venue: Workshop on Visual Learning with Limited Labels, IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR'20), Jun 2020.
-  paper:
-    url:
+    url: http://interpretable-ml.org/icml2020workshop/pdf/29.pdf
 
 - year: 2020
   title: 'Towards Fine-grained Sampling for Active Learning in Object Detection'
