@@ -3,27 +3,6 @@
 #  info:
 #  email:
 
-- name: Arghya Pal
-  photo: cs15resch11001.jpg
-  desig: PhD Student
-  info: "Intel PhD Fellow, 2015 - Present"
-  id: cs15resch11001
-  email: cs15resch11001@iith.ac.in
-  webpage: https://arghyapal.github.io/ItsArghyaPal.io/
-  google-scholar: https://scholar.google.com/citations?user=16BfylwAAAAJ&hl=en
-  affiliations: IIT Hyderabad
-  topics: Generative Models, Zero Shot Learning, Task Transfer Learning
-
-# - name: Krishna Rao Kakkirala
-#   photo: placeholder.jpg
-#   desig: PhD Student
-#   info: "Part-time, employed at TCS Research, 2015 - Present"
-#   id: cs15resch11005
-#   email: cs15resch11005@iith.ac.in
-#   google-scholar: https://scholar.google.co.in/citations?user=C6BUHzEAAAAJ&hl=en
-#   affiliations: IIT Hyderabad
-#   topics: 
-
 - name: Anirban Sarkar
   photo: cs16resch11006.jpg
   desig: PhD Student
@@ -35,10 +14,16 @@
   affiliations: IIT Hyderabad
   topics: Explainable/Robust AI, Causality
 
+- name: Sakshi Varshney 
+  info: "**Visvesvaraya Fellow**, 2016 - Present (Co-advisor, Advisor: [Prof Srijith P K](https://sites.google.com/site/pksrijith/home), IIT-H)"
+  email: cs16resch01002@iith.ac.in
+  photo: placeholder-f.jpg
+  topics: Implicit Generative Models, Generative Adversarial Networks
+
 - name: K J Joseph
   photo: cs17m18p100001.jpg
   desig: PhD Student
-  info: "TCS PhD Fellow, 2017 - Present"
+  info: "**TCS PhD Fellow**, 2017 - Present"
   id: cs17m18p100001
   email: cs17m18p100001@iith.ac.in
   webpage: "https://josephkj.in/"

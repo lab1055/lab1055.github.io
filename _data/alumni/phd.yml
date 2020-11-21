@@ -6,6 +6,13 @@
 #   accomplishments: 
 
 
+- name: Arghya Pal
+  info: 2015 - 20
+  next:  Postdoc, Harvard Univ
+  # optional
+  webpage: https://arghyapal.github.io/ItsArghyaPal.io/
+  accomplishments:  Intel PhD Fellow
+  
 - name: Adepu Ravi Sankar
   info: 2014 - 20
   # next: 

@@ -21,6 +21,11 @@
 #     url:
 #   project_page:
 #     url:
+ 
+- year: 2021
+  title: Two-Level Adversarial Visual-Semantic Coupling for Generalized Zero-shot Learning
+  authors: Shivam Chandhok, V Balasubramanian
+  venue: Proceedings of IEEE Winter Conference on Applications of Computer Vision (<b>WACV’21</b>), Jan 2021
 
 - year: 2020
   title: "Meta-Consolidation for Continual Learning"
@@ -29,6 +34,10 @@
   paper:
     url: https://arxiv.org/abs/2010.00352
 
+- year: 2020
+  title: On Initial Pools for Deep Active Learning
+  authors: Akshay L Chandra, Sai Vikas D., Chaitanya D, V. Balasubramanian 
+  venue: Pre-Register Workshop, Neural Information Processing Systems (NeurIPS Workshops’20), Dec 2020
 
 - year: 2020
   title: "DANTE: Deep Alternations for Training Neural Networks"
