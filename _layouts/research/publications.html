@@ -8,7 +8,7 @@ layout: default
   </h1>
 
   {% assign years = site.data.years | reverse %} {% for year in years %} {% assign papers =
-  site.data.publist | where: "year", year %} {% if papers[1] %}
+  site.data.publist | where: "year", year %} {% if papers[0] %} 
   <div class="year" style="font-size: 40px; color: black;">{{ year }}</div>
 
   {% for publi in papers %}

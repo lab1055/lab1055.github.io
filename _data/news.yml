@@ -3,6 +3,9 @@
 
 # If there is a colon in your text use double quotes
 
+- date: Dec 2020
+  headline: Two papers accepted at <b class='highlight'>AAAI 2021</b>. Congratulations to Ravi, Yash, Rahul, Anindya, Anirban!
+
 - date: Nov 2020
   headline: Our work on generalized zero-shot learning is accepted at <b class='highlight'>WACV 2021</b>. Congratulations to Shivam!
 
