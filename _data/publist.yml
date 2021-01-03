@@ -33,6 +33,8 @@
   title: Enhanced Regularizers for Attributional Robustness
   authors: Anindya Sarkar, Anirban Sarkar, V. Balasubramanian
   venue: Proceedings of the Association for the Advancement of Artificial Intelligence (<b>AAAI’21</b>), Feb 2021
+  paper:
+    url: https://arxiv.org/abs/2012.14395
 
 - year: 2021
   title: Two-Level Adversarial Visual-Semantic Coupling for Generalized Zero-shot Learning
@@ -72,6 +74,9 @@
   title: "Spatial Feedback Learning to Improve Semantic Segmentation in Hot Weather"
   authors: Shyam Nandan R., Anbumani S., V. Balasubramanian, C V Jawahar
   venue: Proceedings of British Machine Vision Conference (<b>BMVC’20</b>), Sep 2020.
+  paper:
+    url: https://www.bmvc2020-conference.com/assets/papers/0742.pdf
+
 
 - year: 2020
   title: 'Attributional Robustness Training using Input-Gradient Spatial Alignment'
