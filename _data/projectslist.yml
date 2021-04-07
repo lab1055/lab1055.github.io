@@ -17,3 +17,7 @@
 - name: '2020_mangla_charting'
   url: 'projectpages/2020_mangla_charting'
   data: 'projectpages/2020_mangla_charting.md'
+
+- name: '2021_joseph_owod'
+  url: 'projectpages/2021_joseph_owod'
+  data: 'projectpages/2021_joseph_owod.md'

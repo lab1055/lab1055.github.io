@@ -23,6 +23,29 @@
 #     url:
 
 - year: 2021
+  title: Towards Open-World Object Detection
+  authors: Joseph K J, Salman Khan, Fahad Khan, V. Balasubramanian
+  venue: Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR’21</b>), Jun 2021 (Oral Paper)
+  paper:
+    url: https://arxiv.org/abs/2103.02603
+  code:
+    url: https://github.com/JosephKJ/OWOD
+  project_page:
+    url: 2021_joseph_owod
+
+- year: 2021
+  title: On the Benefits of Defining Vicinal Distributions in Latent Space
+  authors: Puneet Mangla, Vedant Singh, Shreyas Havaldar, V. Balasubramanian
+  venue: Workshops on <a href="https://sites.google.com/connect.hku.hk/robustml-2021/home">Robust and Reliable Machine Learning in the Real World Workshop (RobustML)</a> and <a href="https://sites.google.com/view/rai-workshop/home">Responsible AI</a> at International Conference on Learning Representations (ICLR’21), May 2021
+
+- year: 2021
+  title: "Adversarial Robustness: A Neural Architecture Search Perspective"
+  authors: Chaitanya Devaguptapu, Devansh Agarwal, Gaurav Mittal, V. Balasubramanian
+  venue: "Workshops on Neural Architecture Search and <a href='https://s2d-olad.github.io/'>From Shallow to Deep: Overcoming Limited and Adverse Data (S2D-OLAD) </a> at International Conference on Learning Representations (ICLR’21), May 2021"
+  paper:
+    url: https://arxiv.org/abs/2007.08428
+
+- year: 2021
   title: A Deeper Look at the Hessian Eigenspectrum of Deep Neural Networks and its Applications to Regularization
   authors: Adepu Ravi Sankar, Yash Khasbage, Rahul V, V. Balasubramanian
   venue: Proceedings of the Association for the Advancement of Artificial Intelligence (<b>AAAI’21</b>), Feb 2021
