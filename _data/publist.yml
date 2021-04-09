@@ -36,12 +36,12 @@
 - year: 2021
   title: On the Benefits of Defining Vicinal Distributions in Latent Space
   authors: Puneet Mangla, Vedant Singh, Shreyas Havaldar, V. Balasubramanian
-  venue: Workshops on <a href="https://sites.google.com/connect.hku.hk/robustml-2021/home">Robust and Reliable Machine Learning in the Real World Workshop (RobustML)</a> and <a href="https://sites.google.com/view/rai-workshop/home">Responsible AI</a> at International Conference on Learning Representations (ICLR’21), May 2021
+  venue: Workshops on Robust and Reliable Machine Learning in the Real World Workshop (RobustML) and Responsible AI at International Conference on Learning Representations (ICLR’21), May 2021
 
 - year: 2021
   title: "Adversarial Robustness: A Neural Architecture Search Perspective"
   authors: Chaitanya Devaguptapu, Devansh Agarwal, Gaurav Mittal, V. Balasubramanian
-  venue: "Workshops on Neural Architecture Search and <a href='https://s2d-olad.github.io/'>From Shallow to Deep: Overcoming Limited and Adverse Data (S2D-OLAD) </a> at International Conference on Learning Representations (ICLR’21), May 2021"
+  venue: "Workshops on Neural Architecture Search and From Shallow to Deep: Overcoming Limited and Adverse Data (S2D-OLAD) at International Conference on Learning Representations (ICLR’21), May 2021"
   paper:
     url: https://arxiv.org/abs/2007.08428
 
